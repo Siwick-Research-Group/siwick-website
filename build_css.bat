@@ -1,0 +1,1 @@
+cd sass & .\sass siwick-style.scss:..\css\siwick-style.css

@@ -1,0 +1,31 @@
+name:                siwick-website
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            http://www.physics.mcgill.ca/siwicklab
+license:             BSD3
+license-file:        LICENSE
+author:              Laurent P. René de Cotret
+maintainer:          laurent.renedecotret@mail.mcgill.ca
+copyright:           2018 Laurent P. René de Cotret
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable siwick-website
+  hs-source-dirs:      compiler
+  main-is:             Main.hs
+  other-modules:       Template, 
+                       BulmaFilter
+  default-language:    Haskell2010
+  ghc-options:         -threaded -O2
+  build-depends:       base >= 4.8 && < 5,
+                       blaze-html,
+                       blaze-markup,
+                       bytestring,
+                       filepath,
+                       hakyll,
+                       hakyll-images,
+                       pandoc,
+                       pandoc-types

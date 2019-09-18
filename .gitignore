@@ -1,0 +1,37 @@
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+# Deployment with Python
+__pycache__/
+
+# Sass binaries
+sass/src/
+
+# Hakyll cache and rendered website
+_rendered/
+_cache/
+
+# Internal and private content
+files/
+static/internal/

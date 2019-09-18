@@ -1,0 +1,37 @@
+<div class="card">
+    <div class="card-content">
+        <div class="media">
+            <!-- 
+                Everything is in the media container so that the picture
+                can be the full height of the card
+            -->
+            $if(picture)$
+            <div class="media-right">
+                <figure class="image is-128x128">
+                    <img src="$picture$">
+                </figure>
+            </div>
+            $endif$
+            <div class="media-content">
+                $if(name)$<p class="title is-4">$name$</p>$endif$
+                <p class="subtitle is-4">$position$</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-content">
+        <p>
+            <i class="fas fa-envelope"></i> <a href="mailto:$email$">$email$</a><br>
+            <i class="fas fa-building"></i> $office$ <br>
+            <i class="fas fa-phone"></i> $phone$ <br>
+            $if(address)$
+                <i class="fas fa-address-card"></i> $address$ 
+            $endif$
+            $if(homepage)$
+                <i class="fas fa-globe"></i> <a href="http://$homepage$">$homepage$</a>
+            $endif$
+        </p>
+        <p>
+            $body$
+        </p>
+    </div>
+</div>
