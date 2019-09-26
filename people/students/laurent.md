@@ -9,5 +9,3 @@ homepage: www.physics.mcgill.ca/~decotret
 ---
 
 Laurent's research explores the interplay between structural and electronic dynamics revealed by ultrafast electron diffuse scattering.
-
-In addition, Laurent has developed new software tools for both single-crystal and powder ultrafast electron diffraction. Take a look at our [software page](/software.html) to see what he is publicly working on.
