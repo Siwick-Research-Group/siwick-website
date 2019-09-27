@@ -89,7 +89,9 @@ __B. J. Siwick__, O. Kalinina, E. Kumacheva, R. J. D. Miller and J. Noolandi, Po
 
 ## Theses and Memoirs
 
-__Mark J. Stern__ (Ph.D. Physics, 2019), Ultrafast electron diffuse scattering and its application to 2D materials [PDF](http://digitool.library.mcgill.ca/thesisfile163241.pdf)
+__Martin R. Otto__ (Ph.D. Physics, 2019), Advancements in electron pulse compression technology applied to ultrafast electron scattering [PDF](/files/MO_thesis_final.pdf)
+
+__Mark J. Stern__ (Ph.D. Physics, 2018), Ultrafast electron diffuse scattering and its application to 2D materials [PDF](http://digitool.library.mcgill.ca/thesisfile163241.pdf)
 
 __Laurent P. René de Cotret__ (M.Sc. Physics, 2016), New Data Analysis and Visualization Methods for Ultrafast Electron Diffraction. [PDF](http://digitool.library.mcgill.ca/thesisfile145488.pdf)
 
