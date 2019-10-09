@@ -42,8 +42,8 @@ schema = [
       NavLink "/people.html"           "People"
     , NavLink "/research.html"         "Research"
     , NavLink "/publications.html"     "Publications"
-    , Waypoint "Technology" [
-          NavLink "/hardware.html"     "Hardware"
+    , Waypoint "Technology"
+        [ NavLink "/hardware.html"     "Hardware"
         , NavLink "/software.html"     "Software"
         ]
     , Waypoint "External Links" [
@@ -60,10 +60,13 @@ schema = [
         , ExternalLink "http://www.physics.mcgill.ca/~peter/"                    "Peter Grutter"
         , Divider
         , Title "Software Documentation"
-        , ExternalLink "https://iris-ued.rtfd.io"   "iris"
-        , ExternalLink "https://scikit-ued.rtfd.io" "scikit-ued"
-        , ExternalLink "https://npstreams.rtfd.io"  "npstreams"
-        , ExternalLink "https://crystals.rtfd.io"   "crystals"
+        , ExternalLink "https://iris-ued.rtfd.io"                 "iris"
+        , ExternalLink "https://scikit-ued.rtfd.io"               "scikit-ued"
+        , ExternalLink "https://npstreams.rtfd.io"                "npstreams"
+        , ExternalLink "https://crystals.rtfd.io"                 "crystals"
+        , Divider
+        , Title "GitHub Organization"
+        , ExternalLink "https://github.com/Siwick-Research-Group" "Siwick Research Group"
         ]
     , NavLink "/internal/index.html"   "Internal"
     ]
