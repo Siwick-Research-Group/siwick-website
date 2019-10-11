@@ -9,7 +9,7 @@ In this work we provide a description of the signals contained in ultrafast elec
 
 ![Population dynamics of in-plane phonon of graphite, for selected modes, across the entire Brillouin zone. The in-plane geometry of the Brillouin zone is shown in the center left panel, showing the location of the high-symmetry point K, M, and $\Gamma$. The location of the transverse optical phonon $A_1'$ is shown in the top row.](/images/research/ueds_pop_dynamics.png)
 
-1. _L. P. René de Cotret_, _J.-H. Pöhls_, M. J. Stern, _M. R. Otto_, M. Sutton, and __B. J. Siwick__, Time- and momentum-resolved phonon spectroscopy with ultrafast electron diffuse scattering, 2019 (submitted). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](https://arxiv.org/abs/1908.02795).
+1. _L. P. René de Cotret_, _J.-H. Pöhls_, M. J. Stern, _M. R. Otto_, M. Sutton, and __B. J. Siwick__, Time- and momentum-resolved phonon spectroscopy with ultrafast electron diffuse scattering, 2019 (under review). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](https://arxiv.org/abs/1908.02795).
 
 -------------------------------------------------------------------------------
 
