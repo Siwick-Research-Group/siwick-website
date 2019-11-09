@@ -3,13 +3,13 @@ title: Research
 withtoc: yes
 ---
 
-## Time- and momentum-resolved phonon spectroscopy
+## Time- and momentum-resolved phonon population dynamics
 
 In this work we provide a description of the signals contained in ultrafast electron diffuse scattering (UEDS) measurements and a comprehensive and broadly applicable computational method for UEDS data reduction based on density functional perturbation theory (DFPT). Specifically, we present a procedure to recover phonon population dynamics as a function of the phonon branch and wavevector, and a determination of wavevector-dependent (or mode-projected) electron-phonon coupling constants from those phonon population measurements. The application of this approach to the case of photodoped carriers in the Dirac cones of thin graphite is demonstrated. The electron-phonon coupling strength to the strongly-coupled $A_1'$ phonon at the K-point of the Brillouin zone, and the nonequilibrium optical and acoustic phonon branch populations as a function of time following excitation across the whole Brillouin zone are all determined from the UEDS measurements.
 
 ![Population dynamics of in-plane phonon of graphite, for selected modes, across the entire Brillouin zone. The in-plane geometry of the Brillouin zone is shown in the center left panel, showing the location of the high-symmetry point K, M, and $\Gamma$. The location of the transverse optical phonon $A_1'$ is shown in the top row.](/images/research/ueds_pop_dynamics.png)
 
-1. _L. P. René de Cotret_, _J.-H. Pöhls_, M. J. Stern, _M. R. Otto_, M. Sutton, and __B. J. Siwick__, Time- and momentum-resolved phonon spectroscopy with ultrafast electron diffuse scattering, 2019 (under review). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](https://arxiv.org/abs/1908.02795).
+1. _L. P. René de Cotret_, _J.-H. Pöhls_, M. J. Stern, _M. R. Otto_, M. Sutton, and __B. J. Siwick__, Time- and momentum-resolved phonon population dynamics with ultrafast electron diffuse scattering, 2019 (accepted). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](https://arxiv.org/abs/1908.02795).
 
 -------------------------------------------------------------------------------
 
