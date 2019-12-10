@@ -9,6 +9,8 @@ __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"><
 
 <!-- Underlined names are group members at the time of submission. -->
 
+_M. R. Otto_, _J.-H. Pöhls_, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Ultrafast signatures of exciton-phonon coupling in TiSe~2~, 2019 (submitted). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](http://arxiv.org/abs/1912.03559).
+
 _L. P. René de Cotret_, _J.-H. Pöhls_, M. J. Stern, _M. R. Otto_, M. Sutton, and __B. J. Siwick__, Time- and momentum-resolved phonon population dynamics with ultrafast electron diffuse scattering, 2019 (accepted). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](https://arxiv.org/abs/1908.02795).
 
 <i class="fas fa-unlock-alt"></i> _M. R. Otto_, _L. P. René de Cotret_, D. A. Valverde-Chavez, K. L. Tiwari, N. Émond, M. Chaker, D. G. Cooke, and __B. J. Siwick__, How optical excitation controls the structure and properties of vanadium dioxide, PNAS __116__ issue 2 (2019), pp. 450-455 [DOI: 10.1073/pnas.1808414115](https://doi.org/10.1073/pnas.1808414115).
