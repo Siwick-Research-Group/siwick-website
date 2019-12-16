@@ -57,7 +57,7 @@ schema = [
         , Title "Ultrafast at McGill"
         , ExternalLink "http://www.physics.mcgill.ca/~cooke/Cooke_Lab/News.html" "David Cooke"
         , ExternalLink "http://kambhampati-group.mcgill.ca/"                     "Pat Kambhampati"
-        , ExternalLink "http://www.physics.mcgill.ca/~peter/"                    "Peter Grutter"
+        , ExternalLink "https://spm.physics.mcgill.ca/"                          "Peter Grutter"
         , Divider
         , Title "Software Documentation"
         , ExternalLink "https://iris-ued.rtfd.io"                 "iris"
