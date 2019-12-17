@@ -60,10 +60,10 @@ schema = [
         , ExternalLink "https://spm.physics.mcgill.ca/"                          "Nanoscience and Scanning Probe Microscopy (P. Grutter)"
         , Divider
         , Title "Software Documentation"
-        , ExternalLink "https://iris-ued.rtfd.io"                 "iris"
-        , ExternalLink "https://scikit-ued.rtfd.io"               "scikit-ued"
-        , ExternalLink "https://npstreams.rtfd.io"                "npstreams"
-        , ExternalLink "https://crystals.rtfd.io"                 "crystals"
+        , ExternalLink "https://iris-ued.rtfd.io"    "iris"
+        , ExternalLink "https://scikit-ued.rtfd.io"  "scikit-ued"
+        , ExternalLink "https://npstreams.rtfd.io"   "npstreams"
+        , ExternalLink "https://crystals.rtfd.io"    "crystals"
         , Divider
         , Title "GitHub Organization"
         , ExternalLink "https://github.com/Siwick-Research-Group" "Siwick Research Group"
