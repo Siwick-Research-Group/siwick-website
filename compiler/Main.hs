@@ -55,7 +55,7 @@ schema = [
         , ExternalLink "http://www.rqmp.ca/?lang=en"         "Regroupement québécois sur les matériaux de pointe"
         , Divider
         , Title "Ultrafast at McGill"
-        , ExternalLink "http://www.physics.mcgill.ca/~cooke/Cooke_Lab/News.html" "Ultrafast THz Science (D. Cooke)"
+        , ExternalLink "http://www.physics.mcgill.ca/~cooke/Cooke_Lab/News.html" "Ultrafast Terahertz Science (D. Cooke)"
         , ExternalLink "http://kambhampati-group.mcgill.ca/"                     "Ultrafast Spectroscopy (P. Kambhampati)"
         , ExternalLink "https://spm.physics.mcgill.ca/"                          "Nanoscience and Scanning Probe Microscopy (P. Grutter)"
         , Divider
