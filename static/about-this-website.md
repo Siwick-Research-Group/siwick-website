@@ -8,3 +8,5 @@ This website was created by [Laurent P. René de Cotret](http://www.physics.mcgi
 * Image utilities are provided by the [hakyll-images](http://hackage.haskell.org/package/hakyll-images) package.
 * Cascading style sheet components are provided by the [Bulma project](https://bulma.io/);
 * Icons are provided by the [Font Awesome project](https://fontawesome.com/);
+
+You can find the source code and content [here](https://github.com/Siwick-Research-Group/siwick-website).
