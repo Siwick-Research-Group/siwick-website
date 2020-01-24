@@ -154,11 +154,11 @@ Alternatively, you can install `crystals` through the conda package manager, in 
 
 [<i class="fas fa-book-open"></i> Click here to read the documentation](https://npstreams.rtfd.io)
 
-`scikit-ued` is an open-source Python package for streaming NumPy array operations. The goal is to provide tested routines that operate on streams of arrays instead of dense arrays. It is the secret sauce that powers `iris`'s high-performance, highly-parallel data reduction pipeline. To install `scikit-ued` using pip:
+`npstreams` is an open-source Python package for streaming NumPy array operations. The goal is to provide tested routines that operate on streams of arrays instead of dense arrays. It is the secret sauce that powers `iris`'s high-performance, highly-parallel data reduction pipeline. To install `npstreams` using pip:
 
     $ pip install npstreams
 
-Alternatively, you can install `scikit-ued` through the conda package manager, in the conda-forge channel:
+Alternatively, you can install `npstreams` through the conda package manager, in the conda-forge channel:
 
     $ conda install -c conda-forge npstreams
 
