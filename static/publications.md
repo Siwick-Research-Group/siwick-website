@@ -93,27 +93,27 @@ __B. J. Siwick__, O. Kalinina, E. Kumacheva, R. J. D. Miller and J. Noolandi, Po
 
 __Martin R. Otto__ (Ph.D. Physics, 2019), Advancements in electron pulse compression technology applied to ultrafast electron scattering [PDF](/files/MO_thesis_final.pdf)
 
-__Mark J. Stern__ (Ph.D. Physics, 2018), Ultrafast electron diffuse scattering and its application to 2D materials [PDF](http://digitool.library.mcgill.ca/thesisfile163241.pdf)
+__Mark J. Stern__ (Ph.D. Physics, 2018), Ultrafast electron diffuse scattering and its application to 2D materials [PDF](https://escholarship.mcgill.ca/concern/theses/c534fr13f)
 
-__Laurent P. René de Cotret__ (M.Sc. Physics, 2016), New Data Analysis and Visualization Methods for Ultrafast Electron Diffraction. [PDF](http://digitool.library.mcgill.ca/thesisfile145488.pdf)
+__Laurent P. René de Cotret__ (M.Sc. Physics, 2016), New Data Analysis and Visualization Methods for Ultrafast Electron Diffraction. [PDF](https://escholarship.mcgill.ca/concern/theses/tm70mz19d)
 
-__Andrew Bruhács__ (Ph.D. Chemistry, 2015), Probing Ultrafast Chemical Reaction and Material Phase Transition Dynamics with Visible and mid-Infrared Spectroscopy. [PDF](http://digitool.library.mcgill.ca/thesisfile135489.pdf)
+__Andrew Bruhács__ (Ph.D. Chemistry, 2015), Probing Ultrafast Chemical Reaction and Material Phase Transition Dynamics with Visible and mid-Infrared Spectroscopy. [PDF](https://escholarship.mcgill.ca/concern/theses/sj139497w)
 
-__Kunal Tiwari__ (M.Sc. Physics, 2014), The photo-induced phase transitions of vanadium dioxide. [PDF](http://digitool.library.mcgill.ca/thesisfile130680.pdf)
+__Kunal Tiwari__ (M.Sc. Physics, 2014), The photo-induced phase transitions of vanadium dioxide. [PDF](https://escholarship.mcgill.ca/concern/theses/vx021j128)
 
-__Robert Chatelain__ (Ph.D. Physics, 2014), Radio-frequency pulse compression for high-brightness ultrafast electron diffraction: design, characterization and application. [PDF](http://digitool.library.mcgill.ca/thesisfile126945.pdf)
+__Robert Chatelain__ (Ph.D. Physics, 2014), Radio-frequency pulse compression for high-brightness ultrafast electron diffraction: design, characterization and application. [PDF](https://escholarship.mcgill.ca/concern/theses/8p58ph07r)
 
-__Vance Morrison__ (Ph.D. Physics, 2014), Structural dynamics of the metal-insulator transition in VO2: an ultrafast electron diffraction study with radio-frequency compressed electron pulses. [PDF](http://digitool.library.mcgill.ca/thesisfile126954.pdf)
+__Vance Morrison__ (Ph.D. Physics, 2014), Structural dynamics of the metal-insulator transition in VO2: an ultrafast electron diffraction study with radio-frequency compressed electron pulses. [PDF](https://escholarship.mcgill.ca/concern/theses/2j62s804s)
 
-__Mark Stern__ (M.Sc. Physics, 2012), Time-resolved transmission electron microscopy: The structural dynamics of explosive crystallization in amorphous germanium. [PDF](http://digitool.library.mcgill.ca/thesisfile114280.pdf)
+__Mark Stern__ (M.Sc. Physics, 2012), Time-resolved transmission electron microscopy: The structural dynamics of explosive crystallization in amorphous germanium. [PDF](https://escholarship.mcgill.ca/concern/theses/9c67wr362)
 
-__Shona McGowan__ (M.Sc., Physics 2009), In situ study of amorphous semiconductor crystallization by Dynamic Transmission Electron Microscopy. [PDF](http://digitool.library.mcgill.ca/thesisfile86999.pdf)
+__Shona McGowan__ (M.Sc., Physics 2009), In situ study of amorphous semiconductor crystallization by Dynamic Transmission Electron Microscopy. [PDF](https://escholarship.mcgill.ca/concern/theses/b5644s034)
 
-__Thana Ghunaim__ (M.Sc., Physics 2009), Magnetic Lens Design for an Ultrafast Electron Diffraction Beamline. [PDF](http://digitool.library.mcgill.ca/thesisfile40798.pdf)
+__Thana Ghunaim__ (M.Sc., Physics 2009), Magnetic Lens Design for an Ultrafast Electron Diffraction Beamline. [PDF](https://escholarship.mcgill.ca/concern/theses/nk322f78b)
 
-__Robert Chatelain__ (M.Sc., Physics 2008), Radio-Frequency Compression of Electron Bunches Applied to Ultrafast Electron Diffraction. [PDF](http://digitool.library.mcgill.ca/thesisfile111943.pdf)
+__Robert Chatelain__ (M.Sc., Physics 2008), Radio-Frequency Compression of Electron Bunches Applied to Ultrafast Electron Diffraction. [PDF](https://escholarship.mcgill.ca/concern/theses/n009w595z)
 
-__Vance Morrison__ (M.Sc., Physics 2008), Generation of tunable femtosecond laser pulses and the construction of an ultrafast pump-probe spectrometer. [PDF](http://digitool.library.mcgill.ca/thesisfile116114.pdf)
+__Vance Morrison__ (M.Sc., Physics 2008), Generation of tunable femtosecond laser pulses and the construction of an ultrafast pump-probe spectrometer. [PDF](https://escholarship.mcgill.ca/concern/theses/sb397c76v)
 
 -------------------------------------------------------------------------------
 
