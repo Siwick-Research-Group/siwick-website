@@ -91,7 +91,7 @@ __B. J. Siwick__, O. Kalinina, E. Kumacheva, R. J. D. Miller and J. Noolandi, Po
 
 ## Theses and Memoirs
 
-__Martin R. Otto__ (Ph.D. Physics, 2019), Advancements in electron pulse compression technology applied to ultrafast electron scattering [PDF](/files/MO_thesis_final.pdf)
+__Martin R. Otto__ (Ph.D. Physics, 2019), Advancements in electron pulse compression technology applied to ultrafast electron scattering [PDF](https://escholarship.mcgill.ca/concern/theses/s4655m80w)
 
 __Mark J. Stern__ (Ph.D. Physics, 2018), Ultrafast electron diffuse scattering and its application to 2D materials [PDF](https://escholarship.mcgill.ca/concern/theses/c534fr13f)
 
