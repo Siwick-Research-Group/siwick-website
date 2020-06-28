@@ -28,4 +28,5 @@ executable siwick-website
                        hakyll,
                        hakyll-images,
                        pandoc,
-                       pandoc-types
+                       pandoc-types,
+                       text
