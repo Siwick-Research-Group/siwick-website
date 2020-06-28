@@ -11,13 +11,14 @@
 # resolver: lts-3.5
 # resolver: nightly-2015-09-21
 # resolver: ghc-7.10.2
+# resolver: ghcjs-0.1.0_ghc-7.10.2
 #
 # The location of a snapshot can be provided as a file or url. Stack assumes
 # a snapshot provided as a file might change, whereas a url resource does not.
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-12.26
+resolver: lts-16.0
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -34,12 +35,15 @@ resolver: lts-12.26
 #  - wai
 packages:
 - .
+
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
-extra-deps:
-- hakyll-images-0.4.4
-- pandoc-pyplot-2.2.0.0
+extra-deps: 
+- 'hakyll-images-0.4.4'
+- 'pandoc-plot-0.7.1.0'
+- git: https://github.com/LaurentRDC/hakyll.git
+  commit: 4f92f8f84e252bbd8a5db779334ec4817b07a6c4
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
@@ -52,7 +56,7 @@ extra-deps:
 #
 # Require a specific version of stack, using version ranges
 # require-stack-version: -any # Default
-# require-stack-version: ">=1.9"
+# require-stack-version: ">=1.7"
 #
 # Override the architecture used by stack, especially useful on Windows
 # arch: i386
@@ -63,4 +67,4 @@ extra-deps:
 # extra-lib-dirs: [/path/to/dir]
 #
 # Allow a newer minor version of GHC than the snapshot specifies
-# compiler-check: newer-minor
+compiler-check: newer-minor
