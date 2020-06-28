@@ -1,10 +1,13 @@
+{-# LANGUAGE OverloadedStrings #-}
 -- Pandoc transforms for Bulma's oddities
 module BulmaFilter (
     bulmaTransform
 ) where
 
+import           Data.Text              (pack)
 import           Text.Pandoc.Definition (Attr, Block (..), Inline (..), Pandoc)
 import           Text.Pandoc.Walk       (walk)
+
 
 -- | Transform (or filter) to format heading to Bulma's heading classes.
 -- Markdown: ## Title
@@ -13,8 +16,9 @@ toBulmaHeading :: Block -> Block
 toBulmaHeading (Header level attrs xs) = Header level newAttrs xs
     where
         (identifier, classes, keyvals) = attrs
-        newAttrs = (identifier, classes <> ["title", "is-" <> show level, "has-text-primary", "has-text-centered"], keyvals)
+        newAttrs = (identifier, classes <> ["title", "is-" <> (pack . show $ level)], keyvals)
 toBulmaHeading x = x
+
 
 -- | Take images and add the bulma "image" class to it
 -- Markdown : ![](images/wtv.jpg)
@@ -25,6 +29,7 @@ toBulmaImage (Image attrs xs target) = Image newAttrs xs target
         (identifier, classes, keyvals) = attrs
         newAttrs = (identifier, classes <> ["image"], keyvals)
 toBulmaImage x = x
+
 
 -- ! Transform (or filter) to format heading to Bulma's heading classes.
 -- Markdown: ## Title

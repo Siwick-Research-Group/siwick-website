@@ -14,6 +14,8 @@ import           Hakyll.Images                   (compressJpgCompiler,
                                                   resizeImageCompiler,
                                                   scaleImageCompiler)
 
+import qualified Data.Text                       as T
+
 -- Hakyll can trip on characters like apostrophes
 -- https://github.com/jaspervdj/hakyll/issues/109
 import qualified GHC.IO.Encoding                 as E
@@ -21,6 +23,7 @@ import qualified GHC.IO.Encoding                 as E
 import           Text.Pandoc.Definition          (Pandoc)
 import           Text.Pandoc.Extensions
 import           Text.Pandoc.Options
+import qualified Text.Pandoc.Templates           as Template
 import           Text.Pandoc.Walk                (walkM)
 
 import           System.IO
@@ -266,19 +269,46 @@ fromString = (fromString' . trim)
         fromString' "International"       = International
         fromString' s                     = error ("Unknown position " <> s)
 
--- | Allow math display, code highlighting, and Pandoc filters
+-- | Allow math display, code highlighting, table-of-content, and Pandoc filters
 -- Note that the Bulma pandoc filter is always applied last
 pandocCompiler_ :: Compiler (Item String)
 pandocCompiler_ = do
     ident <- getUnderlying
     toc <- getMetadataField ident "withtoc"
     tocDepth <- getMetadataField ident "tocdepth"
-    let extensions = [
+    template <- unsafeCompiler $ (either error id) <$> 
+                    Template.compileTemplate mempty (T.pack . St.renderHtml $ tocTemplate)
+    let extensions = defaultPandocExtensions
+        writerOptions = case toc of
+            Just _ -> defaultHakyllWriterOptions
+                { writerExtensions = extensions
+                , writerHTMLMathMethod = MathJax ""
+                , writerTableOfContents = True
+                , writerTOCDepth = read (fromMaybe "3" tocDepth) :: Int
+                , writerTemplate = Just template
+                }
+            Nothing -> defaultHakyllWriterOptions
+                { writerExtensions = extensions
+                , writerHTMLMathMethod = MathJax ""
+                }
+
+    pandocCompilerWithTransform defaultHakyllReaderOptions writerOptions bulmaTransform
+
+-- Pandoc extensions used by the compiler
+defaultPandocExtensions :: Extensions
+defaultPandocExtensions = 
+    let extensions = [ 
+            -- Pandoc Extensions: http://pandoc.org/MANUAL.html#extensions
             -- Math extensions
               Ext_tex_math_dollars
             , Ext_tex_math_double_backslash
             , Ext_latex_macros
-            -- Pandoc Extensions: http://pandoc.org/MANUAL.html#extensions
+                -- Code extensions
+            , Ext_fenced_code_blocks
+            , Ext_backtick_code_blocks
+            , Ext_fenced_code_attributes
+            , Ext_inline_code_attributes        -- Inline code attributes (e.g. `<$>`{.haskell})
+                -- Markdown extensions
             , Ext_implicit_header_references    -- We also allow implicit header references (instead of inserting <a> tags)
             , Ext_definition_lists              -- Definition lists based on PHP Markdown
             , Ext_yaml_metadata_block           -- Allow metadata to be speficied by YAML syntax
@@ -286,26 +316,9 @@ pandocCompiler_ = do
             , Ext_subscript                     -- Subscripts (H~2~O is water)
             , Ext_footnotes                     -- Footnotes ([^1]: Here is a footnote)
             ]
-        newExtensions = foldr enableExtension defaultExtensions extensions
         defaultExtensions = writerExtensions defaultHakyllWriterOptions
-    -- Conditional writer options dependind on if a table of content (TOC) is required
-    -- From Julie Moronuki
-    --      https://argumatronic.com/posts/2018-01-16-pandoc-toc.html
-        writerOptions = case toc of
-            Just _ -> defaultHakyllWriterOptions {
-                  writerExtensions = newExtensions
-                , writerHTMLMathMethod = MathJax ""
-                , writerTableOfContents = True
-                , writerTOCDepth = read (fromMaybe "3" tocDepth) :: Int
-                , writerTemplate = Just $ St.renderHtml tocTemplate
-                }
-            Nothing -> defaultHakyllWriterOptions {
-                  writerExtensions = newExtensions
-                , writerHTMLMathMethod = MathJax ""
-                }
-    -- Pandoc filters could be composed, instead of simply `bulmaTransform`
-    pandocCompilerWithTransform defaultHakyllReaderOptions writerOptions bulmaTransform
 
+    in foldr enableExtension defaultExtensions extensions
 -- Move content from static/ folder to base folder
 staticRoute :: Routes
 staticRoute = (gsubRoute "static/" (const ""))
