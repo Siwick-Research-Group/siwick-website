@@ -137,7 +137,6 @@ main = do
             route idRoute
             compile $ loadImage
                 >>= scaleImageCompiler 256 256
-                >>= compressJpgCompiler 50
 
         -- JPG images are special: they can be compressed
         -- We exclude profiles
