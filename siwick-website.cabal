@@ -27,6 +27,6 @@ executable siwick-website
                        filepath,
                        hakyll,
                        hakyll-images,
-                       pandoc,
+                       pandoc >=2.8,
                        pandoc-types,
                        text
