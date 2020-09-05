@@ -11,7 +11,7 @@ __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"><
 
 D. Matte, N. Chamanara, L. Gingras, _L. P. René de Cotret_, _T. L. Britt_, __B. J. Siwick__, and D. G. Cooke, Extreme lightwave electron field emission from a nanotip, 2020 (submitted). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](https://arxiv.org/abs/2006.12677).
 
-_M. R. Otto_, _J.-H. Pöhls_, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Ultrafast signatures of exciton-phonon coupling in TiSe~2~, 2019 (under review). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](http://arxiv.org/abs/1912.03559).
+_M. R. Otto_, _J.-H. Pöhls_, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Mechanisms of electron-phonon coupling unraveled in momentum and time: The case of soft-phonons in TiSe~2~, 2019 (under review). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](http://arxiv.org/abs/1912.03559).
 
 _L. P. René de Cotret_, _J.-H. Pöhls_, M. J. Stern, _M. R. Otto_, M. Sutton, and __B. J. Siwick__, Time- and momentum-resolved phonon population dynamics with ultrafast electron diffuse scattering, Phys. Rev. B __100__ (2019) [DOI: 10.1103/PhysRevB.100.214115](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.214115). Featured as an __Editors' Suggestion__ as well as a [__Kaleidoscope__](https://journals.aps.org/prb/kaleidoscope/prb/100/21/214115). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/1908.02795).
 
