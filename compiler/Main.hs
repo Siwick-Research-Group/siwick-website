@@ -53,7 +53,7 @@ schema = [
           Title "Institutional Links"
         , ExternalLink "http://www.physics.mcgill.ca/"        "McGill Department of Physics"
         , ExternalLink "https://www.mcgill.ca/chemistry/"     "McGill Department of Chemistry"
-        , ExternalLink "http://www.physics.mcgill.ca/cpm/"    "McGill Center for the Physics of Materials"
+        , ExternalLink "https://cpm.research.mcgill.ca/"      "McGill Center for the Physics of Materials"
         , ExternalLink "https://www.mcgill.ca/femr/"          "Facility for Electron Microscopy Research"
         , ExternalLink "http://www.rqmp.ca/?lang=en"          "Regroupement québécois sur les matériaux de pointe"
         , Divider
