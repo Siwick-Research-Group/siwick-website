@@ -84,7 +84,7 @@ navigationBar links = H.nav ! class_ "navbar is-primary is-fixed-top" $
         renderLink :: NavigationLink -> H.Html
         renderLink (NavLink link title) = H.a ! class_ "navbar-item" ! href (toValue link) $ toMarkup title
         renderLink (Title title)        = H.div ! class_ "navbar-item" $ H.strong $ toMarkup title
-        renderLink (ExternalLink link title) = H.a ! class_ "navbar-item" ! target "_blank" ! rel "noopener" ! href (toValue link) $ toMarkup title
+        renderLink (ExternalLink link title) = H.a ! class_ "navbar-item" ! href (toValue link) $ toMarkup title
         renderLink (Divider)            = H.hr ! class_ "navbar-divider"
         renderLink (Waypoint title sublinks) = do
                 H.div ! class_"navbar-item has-dropdown is-hoverable" $ do
