@@ -33,7 +33,7 @@ By exploiting symmetry-based selection rules and time-resolution, scattering fro
 
 ##### [APS Physics Viewpoint: Electrons Film Phonon Dynamics in Full](https://physics.aps.org/articles/v11/53)
 
-1. _M. J. Stern_, _L. P. René de Cotret_, _M. R. Otto_, R. P. Chatelain, J. P. Boisvert, M. Sutton, and __B. J. Siwick__, _Mapping momentum-dependent electron-phonon coupling and non-equilibrium phonon dynamics with ultrafast electron diffuse scattering_ (2018) [DOI: 10.1103/PhysRevB.97.165416](https://doi.org/10.1103/PhysRevB.97.165416).
+1. _M. J. Stern_\*, _L. P. René de Cotret_\*, _M. R. Otto_, R. P. Chatelain, J. P. Boisvert, M. Sutton, and __B. J. Siwick__, _Mapping momentum-dependent electron-phonon coupling and non-equilibrium phonon dynamics with ultrafast electron diffuse scattering_ (2018) [DOI: 10.1103/PhysRevB.97.165416](https://doi.org/10.1103/PhysRevB.97.165416).
 2. _R. P. Chatelain_, _V. Morrison_, Bart L. M. Klarenaar and __B. J. Siwick__, _Coherent and Incoherent Electron-phonon Coupling in Graphite Observed with Radio-frequency Compressed Ultrafast Electron Diffraction_, Phys. Rev. Lett. 113 (2014) 235502.
 
 -------------------------------------------------------------------------------
