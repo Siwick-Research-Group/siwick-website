@@ -14,7 +14,6 @@ This script requires:
 """
 import argparse
 import sys
-import webbrowser
 from contextlib import suppress
 from getpass import getpass
 from os import listdir, walk, environ
@@ -25,7 +24,7 @@ try:
     from tqdm import tqdm
 except ImportError:
     print("paramiko and tqdm are required for this script to run.")
-    sys.exit()
+    sys.exit(-1)
 
 # The directory to mirror
 CONTENT_DIR = "_rendered"
@@ -47,6 +46,11 @@ parser.add_argument(
     "--all",
     action="store_true",
     help="Upload all files (including large files like pdfs)",
+)
+parser.add_argument(
+    "--dont-ask-password",
+    action="store_true",
+    help="Don't ask for a password. If the password is not found in the environment variable DEPLOY_PASSWORD, an error is raised."
 )
 parser.add_argument(
     "--show",
@@ -104,8 +108,15 @@ if __name__ == "__main__":
     # On Github, the password is stored in environment variables
     try:
         password = environ["DEPLOY_PASSWORD"]
+        print('Password located in environment variables.')
     except KeyError:
-        password = getpass("CPM server password: ")
+        # The following flag prevents this script from hanging in
+        # a cloud environment, e.h. Github Actions.
+        if arguments.dont_ask_password:
+            print('Password not found; aborting.')
+            sys.exit(-1)
+        else:
+            password = getpass("CPM server password: ")
 
     if arguments.all:
         exclude_ext = tuple()
@@ -122,7 +133,7 @@ if __name__ == "__main__":
             print("Connected to CPM server.")
         except AuthenticationException as e:
             print(str(e))
-            sys.exit()
+            sys.exit(-1)
 
         # Step 0: Calculate the transfer size
         with client.open_sftp() as sftp_client:
@@ -152,7 +163,4 @@ if __name__ == "__main__":
         out = client.exec_command(f"rsync -a '{TARGET_DIR}/' /WWW/decotret/siwicklab")
 
     print("Upload done!")
-
-    if arguments.show:
-        print("Opening web page externally...")
-        webbrowser.open("http://www.physics.mcgill.ca/siwicklab")
+    sys.exit()

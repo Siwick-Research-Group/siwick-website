@@ -1,0 +1,77 @@
+name: Render site
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    # Build the website twice a week, to keep it up-to-date
+    # and keep the cache warm.
+    # See https://crontab.guru/#0_5_*_*_0,4
+    - cron: '0 3 * * 1,5'
+
+jobs:
+  build-and-deploy:
+    if: contains(toJson(github.event.commits), '[ci skip]') == false && contains(toJson(github.event.commits), '[skip ci]') == false
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Haskell toolchain
+      uses: actions/setup-haskell@v1
+      with:
+        enable-stack: true
+        stack-version: 'latest'
+
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - uses: actions/cache@v1
+      name: Cache Haskell build artifacts
+      with:
+        path: ~/.stack
+        key: ${{ runner.os }}-${{ hashFiles('stack.yaml.lock') }}
+
+    - uses: actions/cache@v1
+      name: Cache Python build artifacts
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+    - name: Build site compiler
+      run: |
+        stack install
+    
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Download Bulma CSS
+      env:
+        bulma-version: 0.9.1
+      run: |
+        wget -c https://github.com/jgthms/bulma/releases/download/${{ env.bulma-version }}/bulma-${{ env.bulma-version }}.zip 
+        unzip bulma-${{ env.bulma-version }}.zip -d sass
+
+    - name: Compile CSS from SCSS files
+      uses: gha-utilities/sass-build@v0.2.5
+      with:
+        source: sass/siwick-style.scss
+        destination: css/siwick-style.css
+        
+    - name: Build website
+      run: |
+        stack exec -- siwick-website clean
+        stack exec -- siwick-website build
+    
+    - name: Check links
+      run: |
+        stack exec -- siwick-website check --internal-links
+
+    - name: Deployment
+      env:
+        DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
+      run: |
+        python -m deploy --all --dont-ask-password
