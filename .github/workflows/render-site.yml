@@ -79,3 +79,13 @@ jobs:
         local_path: './_rendered/*'
         remote_path: 'website'
         args: '-o ConnectTimeout=10'
+
+    - name: Sync to WWW
+      uses: JimCronqvist/action-ssh@0.1.1
+      with:
+        hosts: 'decotret@${{ secrets.CPM_SERVER }}'
+        privateKey: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
+        command: |
+          rsync -va --delete 'website/' /WWW/decotret/siwicklab
+          rm -rf website
+
