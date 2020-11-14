@@ -71,7 +71,7 @@ jobs:
         stack exec -- siwick-website check --internal-links
 
     - name: SFTP Deploy
-      uses: wlixcc/SFTP-Deploy-Action@v1
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
         username: 'decotret'
         server: ${{ secrets.CPM_SERVER }}
