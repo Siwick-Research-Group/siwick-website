@@ -70,8 +70,8 @@ jobs:
       run: |
         stack exec -- siwick-website check --internal-links
 
-    - name: Deployment
-      env:
-        DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
-      run: |
-        python -m deploy --all --dont-ask-password
+    # - name: Deployment
+    #   env:
+    #     DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
+    #   run: |
+    #     python -m deploy --all --dont-ask-password
