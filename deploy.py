@@ -160,7 +160,7 @@ if __name__ == "__main__":
                     pbar.write("\r {}".format(fname))
 
         # Step 2: sync with the domain
-        out = client.exec_command(f"rsync -a '{TARGET_DIR}/' /WWW/decotret/siwicklab")
+        out = client.exec_command(f"rsync -va '{TARGET_DIR}/' /WWW/decotret/siwicklab")
 
     print("Upload done!")
     sys.exit()
