@@ -17,7 +17,7 @@ import sys
 import webbrowser
 from contextlib import suppress
 from getpass import getpass
-from os import listdir, walk
+from os import listdir, walk, environ
 from os.path import getsize, isfile, join
 
 try:
@@ -101,7 +101,11 @@ if __name__ == "__main__":
 
     arguments = parser.parse_args()
 
-    password = getpass("CPM server password: ")
+    # On Github, the password is stored in environment variables
+    try:
+        password = environ["DEPLOY_PASSWORD"]
+    except KeyError:
+        password = getpass("CPM server password: ")
 
     if arguments.all:
         exclude_ext = tuple()
