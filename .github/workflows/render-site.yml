@@ -76,6 +76,6 @@ jobs:
         username: 'decotret'
         server: ${{ secrets.CPM_SERVER }}
         ssh_private_key: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
-        local_path: './rendered/*'
+        local_path: './_rendered/*'
         remote_path: '~/website'
         args: '-o ConnectTimeout=10'
