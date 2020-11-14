@@ -72,9 +72,9 @@ navigationBar links = H.nav ! class_ "navbar is-primary is-fixed-top" $
 
                 -- toggleBurger function defined in js/navbar-onclick.js
                 H.span ! class_ "navbar-burger burger" ! A.id "burger" ! A.onclick "toggleBurger()"$ do
-                    H.span $ mempty
-                    H.span $ mempty
-                    H.span $ mempty
+                    H.span mempty
+                    H.span mempty
+                    H.span mempty
 
             H.div ! class_ "navbar-menu" ! A.id "navbarMenu" $
                 H.div ! class_ "navbar-start" $

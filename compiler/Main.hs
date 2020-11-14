@@ -71,16 +71,6 @@ schema = [
         , Title "GitHub Organization"
         , ExternalLink "https://github.com/Siwick-Research-Group" "Siwick Research Group"
         ]
-    , NavLink "/internal/index.html"   "Internal"
-    ]
-
--- Website schema for the internal pages
-schemaInternal :: Schema
-schemaInternal = [
-      NavLink "/internal/index.html"            "Internal"
-    , NavLink "/internal/documentation.html"    "Documentation"
-    , NavLink "/internal/projects.html"         "Projects Management"
-    , NavLink "/internal/reports.html"          "Student reports"
     ]
 
 -- We match images down to two levels
@@ -91,27 +81,11 @@ jpgImages = foldr1 (.||.) [ "images/*.jpg"
                           , "images/*.jpeg"
                           , "images/*/**.jpeg"
                           ]
-            .&&. (complement profiles)
+            .&&. complement profiles
 nonJpgImages = ( "images/*/**" .||. "images/*" ) .&&. complement jpgImages
 
 config :: Configuration
-config = defaultConfiguration { destinationDirectory = "_rendered"
-                              , ignoreFile = ignoreFile' 
-                              }
-    where
-        ignoreFile' path
-            -- Special case for the password protection of internal section
-            | fileName == ".htpasswd"      = False
-            | fileName == ".htaccess"      = False
-            -- Default behavior from Hakyll
-            -- https://jaspervdj.be/hakyll/reference/src/Hakyll.Core.Configuration.html#Configuration
-            | "."    `isPrefixOf` fileName = True
-            | "#"    `isPrefixOf` fileName = True
-            | "~"    `isSuffixOf` fileName = True
-            | ".swp" `isSuffixOf` fileName = True
-            | otherwise                    = False
-            where
-                fileName = takeFileName path
+config = defaultConfiguration { destinationDirectory = "_rendered" }
 
 
 --------------------------------------------------------------------------------
@@ -126,7 +100,6 @@ main = do
         preprocess $ do
             -- We generate the default templates
             B.writeFile "templates/default.html"          $ renderHtml $ mkDefaultTemplate schema ""
-            B.writeFile "templates/default-internal.html" $ renderHtml $ mkDefaultTemplate schemaInternal ""
 
         match "css/*" $ do
             route   idRoute
