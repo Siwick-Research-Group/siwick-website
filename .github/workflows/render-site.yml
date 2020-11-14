@@ -63,7 +63,7 @@ jobs:
         ssh_private_key: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
         local_path: './_rendered/*'
         remote_path: 'website'
-        args: '-o ConnectTimeout=10'
+        args: '-o ConnectTimeout=30'
 
     - name: Sync to WWW
       uses: JimCronqvist/action-ssh@0.1.1
