@@ -23,30 +23,15 @@ jobs:
         enable-stack: true
         stack-version: 'latest'
 
-    - uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'
-
     - uses: actions/cache@v1
       name: Cache Haskell build artifacts
       with:
         path: ~/.stack
         key: ${{ runner.os }}-${{ hashFiles('stack.yaml.lock') }}
 
-    - uses: actions/cache@v1
-      name: Cache Python build artifacts
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-${{ hashFiles('requirements.txt') }}
-
     - name: Build site compiler
       run: |
         stack install
-    
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
         
     - name: Download Bulma CSS
       env:
