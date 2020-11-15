@@ -54,23 +54,13 @@ jobs:
     - name: Check links
       run: |
         stack exec -- siwick-website check --internal-links
-
-    - name: SFTP Deploy
-      uses: wlixcc/SFTP-Deploy-Action@v1.0
-      with:
-        username: 'decotret'
-        server: ${{ secrets.CPM_SERVER }}
-        ssh_private_key: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
-        local_path: './_rendered/*'
-        remote_path: 'website'
-        args: '-o ConnectTimeout=120'
-
-    - name: Sync to WWW
-      uses: JimCronqvist/action-ssh@0.1.1
-      with:
-        hosts: 'decotret@${{ secrets.CPM_SERVER }}'
-        privateKey: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
-        command: |
-          rsync -va --delete 'website/' /WWW/decotret/siwicklab
-          rm -rf website
+    
+    - name: Deployment
+      env:
+        SERVER: ${{ secrets.CPM_SERVER }}
+        PRIVATE_KEY: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
+      run: |
+        printf "%s" "$PRIVATE_KEY" > identity-file
+        printf "%s" "put -r _rendered /WWW/decotret/siwicklab" > deploy-script
+        sftp -b deploy-script -i identity-file decotret@$SERVER
 
