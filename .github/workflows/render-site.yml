@@ -57,10 +57,9 @@ jobs:
     
     - name: Deployment
       env:
-        SERVER: ${{ secrets.CPM_SERVER }}
         PRIVATE_KEY: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
       run: |
         printf "%s" "$PRIVATE_KEY" > identity-file
         printf "%s" "put -r _rendered /WWW/decotret/siwicklab" > deploy-script
-        sftp -b deploy-script -i identity-file decotret@$SERVER
+        sftp -v -b deploy-script -i identity-file decotret@gollum.physics.mcgill.ca
 
