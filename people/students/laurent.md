@@ -5,7 +5,7 @@ email: laurent.renedecotret@mail.mcgill.ca
 phone: 514 398 3455
 office: Otto Maass Chemistry Building, room 025
 picture: /images/profiles/Laurent.jpg
-homepage: www.physics.mcgill.ca/~decotret
+homepage: https://laurentrdc.xyz
 ---
 
 Laurent's research explores the interplay between structural and electronic dynamics revealed by ultrafast electron diffuse scattering.
