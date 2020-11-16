@@ -29,6 +29,12 @@ jobs:
         path: ~/.stack
         key: ${{ runner.os }}-${{ hashFiles('stack.yaml.lock') }}
 
+    - uses: actions/cache@v1
+      name: Cache Python build artifacts
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
     - name: Build site compiler
       run: |
         stack install
@@ -54,13 +60,19 @@ jobs:
     - name: Check links
       run: |
         stack exec -- siwick-website check --internal-links
+
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
     
     - name: Deployment
       env:
-        SERVER: ${{ secrets.CPM_SERVER }}
-        PRIVATE_KEY: ${{ secrets.CPM_PRIVATE_SSH_KEY }}
+        password: ${{ secrets.CPM_PASSWORD }}
       run: |
-        printf "%s" "$PRIVATE_KEY" > identity-file
-        printf "%s" "put -r _rendered /WWW/decotret/siwicklab" > deploy-script
-        sftp -b deploy-script -i identity-file decotret@$SERVER
+        python -m deploy --all --password=$password
 
