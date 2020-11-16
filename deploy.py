@@ -44,11 +44,6 @@ parser = argparse.ArgumentParser(
     formatter_class=argparse.RawTextHelpFormatter,
 )
 parser.add_argument(
-    "--all",
-    action="store_true",
-    help="Upload all files (including large files like pdfs)",
-)
-parser.add_argument(
     "--show",
     action="store_true",
     help="Navigate to website with default web browser after deployment",
@@ -103,11 +98,6 @@ if __name__ == "__main__":
 
     password = getpass("CPM server password: ")
 
-    if arguments.all:
-        exclude_ext = tuple()
-    else:
-        exclude_ext = (".pdf",)
-
     with SSHClient() as client:
 
         client.set_missing_host_key_policy(AutoAddPolicy)
@@ -119,8 +109,12 @@ if __name__ == "__main__":
         except AuthenticationException as e:
             print(str(e))
             sys.exit()
+        
+        # Delete the current website content
+        # This is to remove content that may be too old
+        client.exec_command(f"rm -rf '{TARGET_DIR}/'")
 
-        # Step 0: Calculate the transfer size
+        # Step 2: Calculate the transfer size
         with client.open_sftp() as sftp_client:
             total_bytes = sum(
                 getsize(join(root, file))
@@ -132,9 +126,9 @@ if __name__ == "__main__":
                 sftp_client.mkdir(TARGET_DIR)
             sftp_client.chdir(TARGET_DIR)
 
-            # Step 1 : upload content
+            # Step 3 : upload content
             upload_stream = put_dir(
-                sftp_client, source=CONTENT_DIR, target="", exclude_ext=exclude_ext
+                sftp_client, source=CONTENT_DIR, target=""
             )
 
             with tqdm(
@@ -144,7 +138,7 @@ if __name__ == "__main__":
                     pbar.update(bytes_transferred)
                     pbar.write("\r {}".format(fname))
 
-        # Step 2: sync with the domain
+        # Step 4: sync with the domain
         out = client.exec_command(f"rsync -va --delete '{TARGET_DIR}/' /WWW/decotret/siwicklab")
 
     print("Upload done!")
