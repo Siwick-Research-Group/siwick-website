@@ -49,13 +49,6 @@ parser.add_argument(
     help="Upload all files (including large files like pdfs)",
 )
 parser.add_argument(
-    "--password",
-    action="store",
-    dest="password",
-    default=None,
-    help="SSH password"
-)
-parser.add_argument(
     "--show",
     action="store_true",
     help="Navigate to website with default web browser after deployment",
@@ -108,10 +101,7 @@ if __name__ == "__main__":
 
     arguments = parser.parse_args()
 
-    if arguments.password is None:
-        password = getpass("CPM server password: ")
-    else:
-        password = arguments.password
+    password = getpass("CPM server password: ")
 
     if arguments.all:
         exclude_ext = tuple()
