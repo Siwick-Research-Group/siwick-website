@@ -5,51 +5,58 @@
 
 packages:
 - completed:
-    hackage: hakyll-images-1.0.0@sha256:e79a44971883453e5cbc9a9cbadac35c5b60bc74ff9eedb1770d37d74696d854,2319
+    hackage: hakyll-images-1.0.1@sha256:a88a759731df738f88a0727f0c5a2e737bf662a7aca642155e3d531db124c1e5,2207
     pantry-tree:
       size: 1109
-      sha256: c888aea2e6665e89456fd9a98430f8a552ecf570ff3d8e2543ea8b7cef440e9f
+      sha256: dc96c9515b365815a6bc7b930c99005eff33550bec9e7e9dd5d93cbb26043a60
   original:
-    hackage: hakyll-images-1.0.0
+    hackage: hakyll-images-1.0.1
 - completed:
-    hackage: pandoc-plot-1.0.0.0@sha256:668b976cb5c75f5b2b465dd73f746cadfef349554c4163e54efabb992e6713d4,5673
+    hackage: pandoc-plot-1.0.2.1@sha256:4bb226b2f3e467207b64a86dcfdc6e4c757be7ee4bfa30a232dc81bef5ab1d37,5816
     pantry-tree:
-      size: 3966
-      sha256: e295c8ce8db49827e164051759d43c456af54b2e5a33b0a1276a830c39af7a43
+      size: 4119
+      sha256: f8f4ba61225f78ed7c555b7264f0a0acc6964e2882130662afe560b9caf2718b
   original:
-    hackage: pandoc-plot-1.0.0.0
+    hackage: pandoc-plot-1.0.2.1
 - completed:
     name: hakyll
     version: 4.13.4.1
-    git: https://github.com/LaurentRDC/hakyll.git
+    git: https://github.com/jaspervdj/hakyll.git
     pantry-tree:
-      size: 11762
-      sha256: 2cedb5c3090e279d4f0991b562379166ab3e8db4779bcefa0330e38d785a7611
-    commit: 92e2dc1faacd726fd5a1ce3d6321323a4a89984d
+      size: 11761
+      sha256: 64ea55162461e5f296ed7e319008f123cb12edab938be4d035b42bb9777ef550
+    commit: e4d80f0397705950a087176723e31ac91397a08f
   original:
-    git: https://github.com/LaurentRDC/hakyll.git
-    commit: 92e2dc1faacd726fd5a1ce3d6321323a4a89984d
+    git: https://github.com/jaspervdj/hakyll.git
+    commit: e4d80f0397705950a087176723e31ac91397a08f
 - completed:
-    hackage: pandoc-2.11.1@sha256:e9a8d50db0b8f428182217da3c2a55f6c8be3c9e3e74fc7ba127bab6d97eed0c,39388
+    hackage: pandoc-2.11.4@sha256:72ff2d50048fe7c11ef67bc936f7fdb986282e72edbb5647db1ab63e415c8bc5,40050
     pantry-tree:
-      size: 114305
-      sha256: 19a964547a2e95757ef120009dd498498e23826d9f5402556c9585391c1ce237
+      size: 118526
+      sha256: 2856fb6c5d6948f3c58f50b3883535f62321db3cceb7b58cd9dd1e6082a0e570
   original:
-    hackage: pandoc-2.11.1
+    hackage: pandoc-2.11.4
 - completed:
-    hackage: citeproc-0.1.0.3@sha256:c73f601fad72d6d74312ae55895e16e2425d86467a16d9a6d1156c6c78d04b62,5395
+    hackage: citeproc-0.2@sha256:72a6b976a1d3ff2107043cfeb942e278ce2b93f0e31752da86bc6431b862ae19,5431
     pantry-tree:
-      size: 78269
-      sha256: c0717efdcc2956274c743efeea22d9b26be102b737fd0decdaa568a6f0eb6b9e
+      size: 78527
+      sha256: 1dd0f1ee7bc43367fbb745ba859ad6e2eb3b8d16d515c47deba31a5bd09bc0e2
   original:
-    hackage: citeproc-0.1.0.3@sha256:c73f601fad72d6d74312ae55895e16e2425d86467a16d9a6d1156c6c78d04b62,5395
+    hackage: citeproc-0.2@sha256:72a6b976a1d3ff2107043cfeb942e278ce2b93f0e31752da86bc6431b862ae19,5431
 - completed:
-    hackage: commonmark-0.1.1@sha256:a928f6a36a7e10dceed252a9bb8670c01affbe89d70d81d4ba8530ff86b841a7,3276
+    hackage: commonmark-0.1.1.2@sha256:c06ab05f0f224ab7982502a96e17952823a9b6dae8505fb35194b0baa9e2a975,3278
     pantry-tree:
       size: 1346
-      sha256: 84f6494a261e5e1a66c50f200c047bbd9fce65f9144e4ad1bcca74be88842230
+      sha256: 6a187bbbfaf61b4b1bf87ee5027e7edb5b7157ad3380982b07b876e9a60cd63d
   original:
-    hackage: commonmark-0.1.1@sha256:a928f6a36a7e10dceed252a9bb8670c01affbe89d70d81d4ba8530ff86b841a7,3276
+    hackage: commonmark-0.1.1.2@sha256:c06ab05f0f224ab7982502a96e17952823a9b6dae8505fb35194b0baa9e2a975,3278
+- completed:
+    hackage: commonmark-extensions-0.2.0.4@sha256:6a437bcfa3c757af4262b71336513619990eafb5cfdc33e57a499c93ad225608,3184
+    pantry-tree:
+      size: 2928
+      sha256: ac8993e356edabc65a40d6c6909696c5f2dfe2a5298089da820c29ca75852360
+  original:
+    hackage: commonmark-extensions-0.2.0.4@sha256:6a437bcfa3c757af4262b71336513619990eafb5cfdc33e57a499c93ad225608,3184
 - completed:
     hackage: commonmark-pandoc-0.2.0.1@sha256:529c6e2c6cabf61558b66a28123eafc1d90d3324be29819f59f024e430312c1f,1105
     pantry-tree:
@@ -57,13 +64,6 @@ packages:
       sha256: d9954a15f73c8fe55a5097e1cc0957fa626d340ef36e2beefb8caae66008c3dc
   original:
     hackage: commonmark-pandoc-0.2.0.1@sha256:529c6e2c6cabf61558b66a28123eafc1d90d3324be29819f59f024e430312c1f,1105
-- completed:
-    hackage: commonmark-extensions-0.2.0.2@sha256:0fa1527b702eb0b95813ad2eac9c480d4735959a0712edf9f583b76eb88d51df,3178
-    pantry-tree:
-      size: 2927
-      sha256: 080787d56132e4097f6e18c69f5f299613c26e6e6f564abe66f8a86fddd7d8c0
-  original:
-    hackage: commonmark-extensions-0.2.0.2@sha256:0fa1527b702eb0b95813ad2eac9c480d4735959a0712edf9f583b76eb88d51df,3178
 - completed:
     hackage: pandoc-citeproc-0.17.0.2@sha256:39c5c60a5eca2c1cb50ae9a00dc7093ca1baac78ad5be4e222505de257dce456,8737
     pantry-tree:
@@ -73,7 +73,7 @@ packages:
     hackage: pandoc-citeproc-0.17.0.2@sha256:39c5c60a5eca2c1cb50ae9a00dc7093ca1baac78ad5be4e222505de257dce456,8737
 snapshots:
 - completed:
-    size: 538412
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2020/10/11.yaml
-    sha256: 541d3a42ea5fa56f4ea505ee4e2b3274b56036683436a86f51bf5759243ad8bc
-  original: nightly-2020-10-11
+    size: 562051
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2021/1/5.yaml
+    sha256: be105362ec57d665ea17fa574ab195c49bb1f9a5bd9016174ef83cd368fba253
+  original: nightly-2021-01-05
