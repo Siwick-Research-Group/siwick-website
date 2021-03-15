@@ -71,7 +71,7 @@ __B. J. Siwick__, A. A. Green, C. T. Hebeisen and R. J. D. Miller, Characterizat
 
 __B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, Femtosecond Electron Diffraction Studies of Strongly Driven Structural Phase Transitions, Chem. Phys. 299 (2-3) 2004, [pp. 285-305](http://www.sciencedirect.com/science/article/pii/S0301010403006621). Special Issue on Ultrafast Science with X-rays and Electrons
 
-__B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, An Atomic-Level View of Melting Using Femtosecond Electron Diffraction, Science 302 (5649) 2003, [pp. 1382-1385](http://www.sciencemag.org/content/302/5649/1382.short7). This article was the cover story of the Nov. 21, 2003 issue
+__B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, An Atomic-Level View of Melting Using Femtosecond Electron Diffraction, Science **302** (5649) 2003, [DOI:10.1126/science.1090052](https://doi.org/10.1126/science.1090052). This article was the cover story of the Nov. 21, 2003 issue
 
 __B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, Response to Comment on: Ultrafast Electron Optics: Propagation Dynamics of Femtosecond Electron Packets [J. Appl. Phys. 92, 1643 (2002)], J. Appl. Phys. 94 (1) 2003, [pp. 807-808](http://jap.aip.org/resource/1/japiau/v94/i1/p807_s1)
 
