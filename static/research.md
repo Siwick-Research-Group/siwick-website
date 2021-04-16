@@ -3,7 +3,21 @@ title: Research
 withtoc: yes
 ---
 
-## Time- and momentum-resolved phonon population dynamics
+## Electron-phonon coupling in excitonic insulator TiSe~2~
+
+In this work, we show that ultrafast electron diffuse scattering measurements of phonon hardening are a sensitive measure of the wavevector-dependent electronic susceptibility $\chi(\mathbf{q})$ of charge-density wave material TiSe~2~:
+$$
+    \omega^2(\mathbf{q}) =  \omega_0^2(\mathbf{q}) - \omega_0(\mathbf{q}) \chi(\mathbf{q}) / \hbar
+$$
+where $\omega_0(\mathbf{q})$ is the bare vibrational frequency in the absence of coupling. Our measurements reveal a relatively isotropic electron-phonon coupling vertex, implying that local interactions are dominant. Moreover, the critical soft transverse optical phonon is strongly renormalized by the charge-carrier density and explains the temperature-dependence of the softening at equilibrium.
+
+![Lattice and electronic properties of excitonic instulator TiSe~2~. **a** Illustration of the valence and conduction bands in TiSe~2~ and the effect of photoexcitation with 1.55 eV light. **b** Fermi surface contours. **c** Dispersion of the soft transverse optical mode. **d** In-plane Brillouin zone in the charge-density (low-T) and room-temperature (high-T) phases. **e** Change in electron scattering (Bragg and diffuse) at 400fs shows anomalous diffuse intensity *decrease* at the soft-phonon wavevector.](/images/research/tise2_website.png)
+
+1. _M. R. Otto_, J.-H. Pöhls, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Mechanisms of electron-phonon coupling unraveled in momentum and time: The case of soft-phonons in TiSe~2~, 2021 (in press). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](http://arxiv.org/abs/1912.03559).
+
+-------------------------------------------------------------------------------
+
+## Time- and momentum-resolved phonon spectroscopy
 
 In this work we provide a description of the signals contained in ultrafast electron diffuse scattering (UEDS) measurements and a comprehensive and broadly applicable computational method for UEDS data reduction based on density functional perturbation theory (DFPT). Specifically, we present a procedure to recover phonon population dynamics as a function of the phonon branch and wavevector, and a determination of wavevector-dependent (or mode-projected) electron-phonon coupling constants from those phonon population measurements. The application of this approach to the case of photodoped carriers in the Dirac cones of thin graphite is demonstrated. The electron-phonon coupling strength to the strongly-coupled $A_1'$ phonon at the K-point of the Brillouin zone, and the nonequilibrium optical and acoustic phonon branch populations as a function of time following excitation across the whole Brillouin zone are all determined from the UEDS measurements.
 

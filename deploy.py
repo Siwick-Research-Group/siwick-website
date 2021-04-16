@@ -31,7 +31,7 @@ except ImportError:
 CONTENT_DIR = "_rendered"
 TARGET_DIR = "website"
 
-DESCRIPTION = """Update the Siwick Research Group website. By default, pdfs are not uploaded unless the '--all' flag is toggled."""
+DESCRIPTION = """Update the Siwick Research Group website."""
 
 EPILOG = """
 Don't forget to render the website using the static site compiler `siwick-website`.
@@ -51,16 +51,16 @@ parser.add_argument(
 
 
 def put_dir(client, source, target, exclude_ext=tuple()):
-    """ 
-    Upload the contents of the source directory to the target path, including subdirectories. 
-    
+    """
+    Upload the contents of the source directory to the target path, including subdirectories.
+
     Parameters
     ----------
     client : paramiko.SFTPClient
-        
+
     source, target : str or path-like
         Source directory and target directory, respectively.
-    
+
     Yields
     ------
     size : int
@@ -109,7 +109,7 @@ if __name__ == "__main__":
         except AuthenticationException as e:
             print(str(e))
             sys.exit()
-        
+
         # Delete the current website content
         # This is to remove content that may be too old
         client.exec_command(f"rm -rf '{TARGET_DIR}/'")
@@ -127,9 +127,7 @@ if __name__ == "__main__":
             sftp_client.chdir(TARGET_DIR)
 
             # Step 3 : upload content
-            upload_stream = put_dir(
-                sftp_client, source=CONTENT_DIR, target=""
-            )
+            upload_stream = put_dir(sftp_client, source=CONTENT_DIR, target="")
 
             with tqdm(
                 desc="Upload to server", unit_scale=True, unit="B", total=total_bytes
@@ -139,7 +137,9 @@ if __name__ == "__main__":
                     pbar.write("\r {}".format(fname))
 
         # Step 4: sync with the domain
-        out = client.exec_command(f"rsync -va --delete '{TARGET_DIR}/' /WWW/decotret/siwicklab")
+        out = client.exec_command(
+            f"rsync -va --delete '{TARGET_DIR}/' /WWW/decotret/siwicklab"
+        )
 
     print("Upload done!")
 

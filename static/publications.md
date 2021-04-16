@@ -61,11 +61,11 @@ M. J. Cox, __B. J. Siwick__ and H. J. Bakker, Influence of Ions on Aqueous Acid-
 
 __B. J. Siwick__, M. J. Cox and H. J. Bakker, Long-range proton transfer in aqueous acid-base reactions, J. Phys Chem. B. 112 (2008), [pp. 378-389](http://pubs.acs.org/doi/abs/10.1021/jp075663i)
 
-T. van Oudheusden, E. F. de Jong, S. B. van der Geer, W.P. E. M. Op 't Root, O. J. Luiten and __B. J. Siwick__, Electron source concept for single-shot sub-100 fs electron diffraction in the 100 keV range, J. Appl. Phys. 102 (2007) [093501](http://jap.aip.org/resource/1/japiau/v102/i9/p093501_s1).
+T. van Oudheusden, E. F. de Jong, S. B. van der Geer, W.P. E. M. Op 't Root, O. J. Luiten and __B. J. Siwick__, Electron source concept for single-shot sub-100 fs electron diffraction in the 100 keV range, J. Appl. Phys. **102** (2007) [DOI:10.1063/1.2801027](https://doi.org/10.1063/1.2801027).
 
 __B. J. Siwick__ and H. J. Bakker, On the role of water in intermolecular proton transfer reactions, J. Am. Chem. Soc. 129 (44) 2007, [pp. 13412 - 13420](http://pubs.acs.org/doi/abs/10.1021/ja069265p).
 
-W. E. King, G. H. Campbell, A. M. Frank, B. W. Reed, J. Schmerge, __B. J. Siwick__, B. C. Stuart and P. M. Weber, Ultrafast Electron Microscopy in Material Science, Biology and Chemistry, J. Appl. Phys. 97 (11) 2005, Art. [No. 111101](http://jap.aip.org/resource/1/japiau/v97/i11/p111101_s1).
+W. E. King, G. H. Campbell, A. M. Frank, B. W. Reed, J. Schmerge, __B. J. Siwick__, B. C. Stuart and P. M. Weber, Ultrafast Electron Microscopy in Material Science, Biology and Chemistry, J. Appl. Phys. **97** (11) 2005, Art. No. 111101. [DOI:10.1063/1.1927699](https://doi.org/10.1063/1.1927699).
 
 __B. J. Siwick__, A. A. Green, C. T. Hebeisen and R. J. D. Miller, Characterization of Ultrashort Electron Pulses by Electron-Laser Pulse Cross-Correlation, Opt. Lett. 30 (9) 2005, [pp. 1057-1059](http://www.opticsinfobase.org/ol/abstract.cfm?uri=ol-30-9-1057).
 
