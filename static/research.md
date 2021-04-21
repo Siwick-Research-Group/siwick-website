@@ -3,7 +3,7 @@ title: Research
 withtoc: yes
 ---
 
-## Electron-phonon coupling in excitonic insulator TiSe~2~
+## Probing the electronic susceptibility of an excitonic insulator
 
 In this work, we show that ultrafast electron diffuse scattering measurements of phonon hardening are a sensitive measure of the wavevector-dependent electronic susceptibility $\chi(\mathbf{q})$ of charge-density wave material TiSe~2~:
 $$
