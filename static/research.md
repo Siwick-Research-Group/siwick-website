@@ -13,7 +13,7 @@ where $\omega_0(\mathbf{q})$ is the bare vibrational frequency in the absence of
 
 ![Lattice and electronic properties of excitonic instulator TiSe~2~. **a** Illustration of the valence and conduction bands in TiSe~2~ and the effect of photoexcitation with 1.55 eV light. **b** Fermi surface contours. **c** Dispersion of the soft transverse optical mode. **d** In-plane Brillouin zone in the charge-density (low-T) and room-temperature (high-T) phases. **e** Change in electron scattering (Bragg and diffuse) at 400fs shows anomalous diffuse intensity *decrease* at the soft-phonon wavevector.](/images/research/tise2_website.png)
 
-1. _M. R. Otto_, J.-H. Pöhls, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Mechanisms of electron-phonon coupling unraveled in momentum and time: The case of soft-phonons in TiSe~2~, 2021 (in press). <i class="fas fa-unlock-alt"></i> [Preprint available on arXiv](http://arxiv.org/abs/1912.03559).
+1. _M. R. Otto_, _J.-H. Pöhls_, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Mechanisms of electron-phonon coupling unraveled in momentum and time: The case of soft-phonons in TiSe~2~, Science Advances __7__ (2021) [DOI: 10.1126/sciadv.abf2810](https://advances.sciencemag.org/content/7/20/eabf2810)
 
 -------------------------------------------------------------------------------
 

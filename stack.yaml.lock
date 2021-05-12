@@ -26,23 +26,16 @@ packages:
   original:
     hackage: hakyll-images-1.0.1
 - completed:
-    hackage: pandoc-plot-1.1.1@sha256:5b68c295360a79f973a00f5efc1fc96c04ac7a25055f6576b5abec0d382b76f6,5866
-    pantry-tree:
-      size: 4208
-      sha256: 5307fc16d3e36475d0aa396eb1a23a1a7c6aff13e9a11cd0e581161ee09eb5ea
-  original:
-    hackage: pandoc-plot-1.1.1
-- completed:
     name: hakyll
     version: 4.14.0.0
-    git: https://github.com/jaspervdj/hakyll.git
+    git: https://github.com/LaurentRDC/hakyll.git
     pantry-tree:
       size: 12189
-      sha256: 61def5f4a7eedc4c0e249d4b68228b1deb690b6aecb533c03783eef2787bce51
-    commit: 122dd424891f6c9be15ff5225886484386dd0956
+      sha256: 800cfd9f2341aec0cac3612f67f2874bf01749d26e714015ec15a107f16ea4be
+    commit: 978820568a8483e6c6d04afe39aee8f7cac94465
   original:
-    git: https://github.com/jaspervdj/hakyll.git
-    commit: 122dd424891f6c9be15ff5225886484386dd0956
+    git: https://github.com/LaurentRDC/hakyll.git
+    commit: 978820568a8483e6c6d04afe39aee8f7cac94465
 snapshots:
 - completed:
     size: 567037
