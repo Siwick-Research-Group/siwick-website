@@ -8,4 +8,4 @@ picture: /images/profiles/Laurent.jpg
 
 Laurent's research explored the interplay between structural and electronic dynamics revealed by ultrafast electron diffuse scattering. He submitted his thesis titled: "From carrier cooling to polaron formation: Ultrafast phonon dynamics across the Brillouin zone." 
 
-You can find Laurent's up-to-date information [on his webpage](https://laurentrdc.xyz)
+You can find Laurent's up-to-date information [on his webpage](https://laurentrdc.xyz).

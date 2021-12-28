@@ -95,6 +95,8 @@ __B. J. Siwick__, O. Kalinina, E. Kumacheva, R. J. D. Miller and J. Noolandi, Po
 
 ## Theses and Memoirs
 
+__Laurent P. René de Cotret__ (PhD. Physics, 2021), From carrier cooling to polaron formation: ultrafast phonon dynamics across the Brillouin zone [PDF](https://laurentrdc.xyz/files/dissertation.pdf). All source material, including text files, figure scripts, and more, are available on [GitHub](https://github.com/LaurentRDC/dissertation).
+
 __Martin R. Otto__ (Ph.D. Physics, 2019), Advancements in electron pulse compression technology applied to ultrafast electron scattering [PDF](https://escholarship.mcgill.ca/concern/theses/s4655m80w)
 
 __Mark J. Stern__ (Ph.D. Physics, 2018), Ultrafast electron diffuse scattering and its application to 2D materials [PDF](https://escholarship.mcgill.ca/concern/theses/c534fr13f)
