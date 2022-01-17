@@ -1,5 +1,5 @@
 name:                siwick-website
-version:             0.1.0.0
+version:             1.0.0.0
 -- synopsis:
 -- description:
 homepage:            http://www.physics.mcgill.ca/siwicklab
@@ -19,8 +19,8 @@ executable siwick-website
   other-modules:       Template, 
                        BulmaFilter
   default-language:    Haskell2010
-  ghc-options:         -threaded -O2 -rtsopts
-  build-depends:       base >= 4.8 && < 5,
+  ghc-options:         -threaded -rtsopts
+  build-depends:       base >= 4.15 && < 5,
                        blaze-html,
                        blaze-markup,
                        bytestring,

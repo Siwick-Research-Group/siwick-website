@@ -3,6 +3,16 @@ title: Research
 withtoc: yes
 ---
 
+## Observing the ultrafast formation of polarons in the high-performance thermoelectric SnSe
+
+SnSe is one of the highest-performing bulk thermoelectric materials, with a record-breaking ability to generate electricity from heat. In this work, we photodope the material to doping levels required for efficient thermoelectric device operation (up to ~10^21^ cm^-3^), and follow the relaxation of the system on ultrafast timescales (<150fs) using ultrafast electron diffraction and diffuse scattering simultaneously. 
+
+We directly visualize the formation of polaron quasiparticles as the photo-doped carriers become dressed by phonons following photoexcitation. Two modes of polaronic distortion are observed on separate timescales. Large quasi-one-dimensional polarons are formed on the 300fs timescale, with smaller isotropic polarons forming at least 10x slower. This bimodal polaron formation is understood in the context of profoundly anisotropic electron-phonon coupling, with strong Frölich coupling only to certain zone-center polar phonon modes. This research shows how important strong electron-phonon coupling is to the understanding of high-performance bulk thermoelectrics.  
+ 
+![Summary of the combined UED/UEDS experiment on SnSe. **Left** Diffraction pattern showing the Brillouin zone and reciprocal space vectors of relevance. **Top middle** Modelling of the effect of strain due to polarons of various sizes on the scattering intensity near Bragg peaks. **Bottom middle** Fit of the modelling to experimental data at 1ps and 5ps, showing two modes of polarons. **Top right** Description of polaronic distortion in terms of phonon dressing. **Bottom right** Diagram of the strain field for the slower polaronic mode (magnitude of distortion exaggerated).](/images/research/snse_summary.png)
+
+1. _L. P. René de Cotret_, _M. R. Otto_, _J.-H. Pöhls_, Z. Luo, M. G. Kanatzidis, and __B. J. Siwick__, Direct visualization of polaron formation in the thermoelectric SnSe, PNAS **119** (2022) [DOI: 10.1073/pnas.2113967119](https://www.pnas.org/content/119/3/e2113967119)
+
 ## Probing the electronic susceptibility of an excitonic insulator
 
 In this work, we show that ultrafast electron diffuse scattering measurements of phonon hardening are a sensitive measure of the wavevector-dependent electronic susceptibility $\chi(\mathbf{q})$ of charge-density wave material TiSe~2~:
