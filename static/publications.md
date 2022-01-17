@@ -11,6 +11,10 @@ __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"><
 
 _L. P. René de Cotret_, M. R. Otto, J.-H. Pöhls, Z. Luo, M. G. Kanatzidis, and __B. J. Siwick__, Direct visualization of polaron formation in the thermoelectric SnSe, PNAS **119** (2022) [DOI: 10.1073/pnas.2113967119](https://www.pnas.org/content/119/3/e2113967119). <i class="fas fa-unlock-alt"></i> [Earlier preprint version available on arXiv](https://arxiv.org/abs/2111.10012).
 
+<i class="fas fa-unlock-alt"></i> __B. J. Siwick__, I. Arslan, I. and X. Wang, Frontier Nonequilibrium Materials Science Enabled by Ultrafast Electron Methods, MRS Bulletin **46** (2021) [DOI: 10.1557/s43577-021-00148-7](https://doi.org/10.1557/s43577-021-00148-7). Special Issue of the [MRS Bulletin](https://link.springer.com/journal/43577/volumes-and-issues/46-8)
+
+<i class="fas fa-unlock-alt"></i> H. A. Dürr, R. Ernstorfer and __B. J. Siwick__, Revealing Momentum-Dependent Electron–Phonon and Phonon–Phonon Coupling in Complex Materials with Ultrafast Electron Diffuse Scattering. MRS Bulletin **46** (2021) 731. [DOI:10.1557/s43577-021-00156-7](https://doi.org/10.1557/s43577-021-00156-7)
+
 <i class="fas fa-unlock-alt"></i> _M. R. Otto_, _J.-H. Pöhls_, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Mechanisms of electron-phonon coupling unraveled in momentum and time: The case of soft-phonons in TiSe~2~, Science Advances **7** (2021) [DOI: 10.1126/sciadv.abf2810](https://advances.sciencemag.org/content/7/20/eabf2810)
 
 <i class="fas fa-unlock-alt"></i> D. Matte, N. Chamanara, L. Gingras, _L. P. René de Cotret_, _T. L. Britt_, __B. J. Siwick__, and D. G. Cooke, Extreme lightwave electron field emission from a nanotip, Phys. Rev. Research **3** (2021) [DOI: 10.1103/PhysRevResearch.3.013137](https://doi.org/10.1103/PhysRevResearch.3.013137).
