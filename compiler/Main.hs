@@ -126,14 +126,14 @@ main = do
         -- These are static pages, like the "research" page
         -- Note that /static/index.html is a special case and is handled below
         match ("static/**.md" .&&. complement "static/internal/**.md") $ do
-            route $ (setExtension "html") `composeRoutes` staticRoute
+            route $ setExtension "html" `composeRoutes` staticRoute
             compile $ pandocCompiler_
                 >>= loadAndApplyTemplate "templates/default.html" defaultContext
                 >>= relativizeUrls
 
         -- Internal pages are defined with a different template
-        match ("static/internal/**.md") $ do
-            route $ (setExtension "html") `composeRoutes` staticRoute
+        match "static/internal/**.md" $ do
+            route $ setExtension "html" `composeRoutes` staticRoute
             compile $ pandocCompiler_
                 >>= loadAndApplyTemplate "templates/default-internal.html" defaultContext
                 >>= relativizeUrls
@@ -149,7 +149,7 @@ main = do
         --------------------------------------------------------------------------------
         -- Compile all profiles
         -- If this is not done, we cannot use the metadata in HTML templates
-        match ("people/**.md") $ compile $ pandocCompiler_ >>= relativizeUrls
+        match "people/**.md" $ compile $ pandocCompiler_ >>= relativizeUrls
 
         --------------------------------------------------------------------------------
         -- Create a page for all MGAPS executives and officers
@@ -205,8 +205,7 @@ sortedPositions :: MonadMetadata m => [Item a] -> m [Item a]
 sortedPositions = sortByM (getPosition . itemIdentifier)
     where
         sortByM :: (Monad m, Ord k) => (a -> m k) -> [a] -> m [a]
-        sortByM f xs = liftM (map fst . sortBy (comparing snd)) $
-                        mapM (\x -> liftM (x,) (f x)) xs
+        sortByM f xs = map fst . sortBy (comparing snd) <$> mapM (\x -> fmap (x,) (f x)) xs
 
         -- Extract the "position: " string from the item
         getPosition :: MonadMetadata m => Identifier -> m Position
@@ -230,7 +229,7 @@ instance Ord Position where
 -- Parse a position string
 -- By design, there is no fallback for an unparseable string
 fromString :: String -> Position
-fromString = (fromString' . trim)
+fromString = fromString' . trim
     where
         trim = dropWhileEnd isSpace . dropWhile isSpace
         fromString' "Associate Professor" = AssociateProfessor
@@ -248,7 +247,7 @@ pandocCompiler_ = do
     ident <- getUnderlying
     toc <- getMetadataField ident "withtoc"
     tocDepth <- getMetadataField ident "tocdepth"
-    template <- unsafeCompiler $ (either error id) <$> 
+    template <- unsafeCompiler $ either error id <$> 
                     Template.compileTemplate mempty (T.pack . St.renderHtml $ tocTemplate)
     let extensions = defaultPandocExtensions
         writerOptions = case toc of
@@ -293,4 +292,4 @@ defaultPandocExtensions =
     in foldr enableExtension defaultExtensions extensions
 -- Move content from static/ folder to base folder
 staticRoute :: Routes
-staticRoute = (gsubRoute "static/" (const ""))
+staticRoute = gsubRoute "static/" (const "")
