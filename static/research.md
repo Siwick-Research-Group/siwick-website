@@ -11,7 +11,17 @@ We directly visualize the formation of polaron quasiparticles as the photo-doped
  
 ![Summary of the combined UED/UEDS experiment on SnSe. **Left** Diffraction pattern showing the Brillouin zone and reciprocal space vectors of relevance. **Top middle** Modelling of the effect of strain due to polarons of various sizes on the scattering intensity near Bragg peaks. **Bottom middle** Fit of the modelling to experimental data at 1ps and 5ps, showing two modes of polarons. **Top right** Description of polaronic distortion in terms of phonon dressing. **Bottom right** Diagram of the strain field for the slower polaronic mode (magnitude of distortion exaggerated).](/images/research/snse_summary.png)
 
+<!-- Easier to style the following link using raw HTML -->
+<h5 class="subtitle is-5 has-text-centered">
+    <a href="https://www.mcgill.ca/channels/channels/news/visualizing-how-polarons-form-best-thermoelectric-material-yet-developed-336618">
+        McGill University News 
+        <i class="fas fa-external-link-square-alt"></i>
+    </a> 
+</h5>
+
 1. _L. P. René de Cotret_, _M. R. Otto_, _J.-H. Pöhls_, Z. Luo, M. G. Kanatzidis, and __B. J. Siwick__, Direct visualization of polaron formation in the thermoelectric SnSe, PNAS **119** (2022) [DOI: 10.1073/pnas.2113967119](https://www.pnas.org/content/119/3/e2113967119)
+
+-------------------------------------------------------------------------------
 
 ## Probing the electronic susceptibility of an excitonic insulator
 
@@ -55,7 +65,13 @@ By exploiting symmetry-based selection rules and time-resolution, scattering fro
 
 ![Ultrafast electron diffuse scattering of photoexcited graphite normalized by q2 __a)__ Raw diffraction pattern of graphite. __b)__ Average relative change for diffraction patterns before photoexcitation, showing noise floor. __c)__ - __f)__ Relative changes in diffraction pattern shows changes in both elastic scattering (negative-going peaks) previously addressed in [2], and diffuse (inelastic) scattering.](/images/research/ueds_website_normalized.png)
 
-##### [APS Physics Viewpoint: Electrons Film Phonon Dynamics in Full](https://physics.aps.org/articles/v11/53)
+<!-- Easier to style the following link using raw HTML -->
+<h5 class="subtitle is-5 has-text-centered">
+    <a href="https://physics.aps.org/articles/v11/53">
+        APS Physics Viewpoint: Electrons Film Phonon Dynamics in Full 
+        <i class="fas fa-external-link-square-alt"></i>
+    </a> 
+</h5>
 
 1. _M. J. Stern_\*, _L. P. René de Cotret_\*, _M. R. Otto_, R. P. Chatelain, J. P. Boisvert, M. Sutton, and __B. J. Siwick__, _Mapping momentum-dependent electron-phonon coupling and non-equilibrium phonon dynamics with ultrafast electron diffuse scattering_ (2018) [DOI: 10.1103/PhysRevB.97.165416](https://doi.org/10.1103/PhysRevB.97.165416).
 2. _R. P. Chatelain_, _V. Morrison_, Bart L. M. Klarenaar and __B. J. Siwick__, _Coherent and Incoherent Electron-phonon Coupling in Graphite Observed with Radio-frequency Compressed Ultrafast Electron Diffraction_, Phys. Rev. Lett. 113 (2014) 235502.
@@ -74,9 +90,20 @@ By combining the group's dynamic materials characterization methods (RF-compress
 
 This work demonstrates that UED can provide deep insights into the nature of strongly correlated materials through the disparate responses of active degrees of freedom in the time domain. Further, UED can be used to study the interplay between valence charge and lattice structure in molecular and materials chemistry. The ability to separate photoinduced changes to lattice structure and charge density is a new capability that the group seeks to explore further.
 
-##### [McGill Newsroom: Watching the Hidden Life of Materials](http://www.mcgill.ca/newsroom/channels/news/watching-hidden-life-materials-239767)
+<!-- Easier to style the following link using raw HTML -->
+<h5 class="subtitle is-5 has-text-centered">
+    <a href="http://www.mcgill.ca/newsroom/channels/news/watching-hidden-life-materials-239767">
+        McGill Newsroom: Watching the Hidden Life of Materials
+        <i class="fas fa-external-link-square-alt"></i>
+    </a> 
+</h5>
 
-##### [Chemical Institute of Canada: Unraveling the Atomic Puzzle of VO~2~](http://www.cheminst.ca/magazine/news/unravelling-atomic-puzzle-vanadium-oxide)
+<h5 class="subtitle is-5 has-text-centered">
+    <a href="http://www.cheminst.ca/magazine/news/unravelling-atomic-puzzle-vanadium-oxide">
+        Chemical Institute of Canada: Unraveling the Atomic Puzzle of VO~2~
+        <i class="fas fa-external-link-square-alt"></i>
+    </a> 
+</h5>
 
 1. _V. Morrison_, _R. P. Chatelain_, _K. Tiwari_, A. Hendaoui, _A. Bruhács_, M. Chaker and __B. J. Siwick__, _A Photoinduced Metal-like Phase of Monoclinic Vanadium Dioxide Revealed by Ultrafast Electron Diffraction_, Science 346 (2014) pp. 445-448. [DOI: 10.1126/science.1253779](https://doi.org/10.1126/science.1253779).
 
@@ -105,7 +132,13 @@ These results demonstrate that we can precisely identify lattice responses follo
 </div>
 </div>
 
-##### [APS Physics Synopsis: Watching Electrons Shake Down a Lattice](http://physics.aps.org/synopsis-for/10.1103/PhysRevLett.113.235502)
+<!-- Easier to style the following link using raw HTML -->
+<h5 class="subtitle is-5 has-text-centered">
+    <a href="http://physics.aps.org/synopsis-for/10.1103/PhysRevLett.113.235502">
+        APS Physics Synopsis: Watching Electrons Shake Down a Lattice
+        <i class="fas fa-external-link-square-alt"></i>
+    </a> 
+</h5>
 
 1. _R. P. Chatelain_, _V. Morrison_, Bart L. M. Klarenaar and __B. J. Siwick__, _Coherent and Incoherent Electron-phonon Coupling in Graphite Observed with Radio-frequency Compressed Ultrafast Electron Diffraction_, Phys. Rev. Lett. 113 (2014) 235502.
 

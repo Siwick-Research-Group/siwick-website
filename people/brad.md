@@ -8,7 +8,7 @@ address: Otto Maass Chemistry Building, McGill University, 801 Sherbrooke St. W,
 picture: /images/profiles/Brad.jpg
 ---
 
-Member of the [Center for the Physics of Materials](http://www.physics.mcgill.ca/cpm/) and the [Regroupement québécois sur les matériaux de pointe](http://www.rqmp.ca/?lang=en)
+Member of the [Center for the Physics of Materials](https://cpm.research.mcgill.ca) and the [Regroupement québécois sur les matériaux de pointe](http://www.rqmp.ca/?lang=en)
 
 * Associate Editor, [Structural Dynamics (AIP/ACA)](https://aca.scitation.org/journal/sdy)
 * Fessenden Professorship (2019-2020)
