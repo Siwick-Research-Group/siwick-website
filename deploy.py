@@ -103,7 +103,7 @@ if __name__ == "__main__":
         client.set_missing_host_key_policy(AutoAddPolicy)
         try:
             client.connect(
-                "gollum.physics.mcgill.ca", username="decotret", password=password
+                "gollum.physics.mcgill.ca", username=laurenzk, password=password
             )
             print("Connected to CPM server.")
         except AuthenticationException as e:
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
         # Step 4: sync with the domain
         out = client.exec_command(
-            f"rsync -va --delete '{TARGET_DIR}/' /WWW/decotret/siwicklab"
+            f"rsync -va --delete '{TARGET_DIR}/' /WWW/laurenzk/siwicklab"
         )
 
     print("Upload done!")
