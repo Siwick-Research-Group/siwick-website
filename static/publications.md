@@ -15,7 +15,7 @@ _L. P. René de Cotret_, M. R. Otto, J.-H. Pöhls, Z. Luo, M. G. Kanatzidis, and
 
 <i class="fas fa-unlock-alt"></i> H. A. Dürr, R. Ernstorfer and __B. J. Siwick__, Revealing Momentum-Dependent Electron–Phonon and Phonon–Phonon Coupling in Complex Materials with Ultrafast Electron Diffuse Scattering. MRS Bulletin **46** (2021) 731. [DOI:10.1557/s43577-021-00156-7](https://doi.org/10.1557/s43577-021-00156-7)
 
-<i class="fas fa-unlock-alt"></i> _M. R. Otto_, _J.-H. Pöhls_, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Mechanisms of electron-phonon coupling unraveled in momentum and time: The case of soft-phonons in TiSe~2~, Science Advances **7** (2021) [DOI: 10.1126/sciadv.abf2810](https://advances.sciencemag.org/content/7/20/eabf2810)
+<i class="fas fa-unlock-alt"></i> _M. R. Otto_, _J.-H. Pöhls_, _L. P. René de Cotret_, M. J. Stern, M. Sutton, and __B. J. Siwick__, Mechanisms of electron-phonon coupling unraveled in momentum and time: The case of soft-phonons in TiSe~2~, Science Advances **7** (2021) [DOI: 10.1126/sciadv.abf2810](https://www.science.org/doi/10.1126/sciadv.abf2810)
 
 <i class="fas fa-unlock-alt"></i> D. Matte, N. Chamanara, L. Gingras, _L. P. René de Cotret_, _T. L. Britt_, __B. J. Siwick__, and D. G. Cooke, Extreme lightwave electron field emission from a nanotip, Phys. Rev. Research **3** (2021) [DOI: 10.1103/PhysRevResearch.3.013137](https://doi.org/10.1103/PhysRevResearch.3.013137).
 
@@ -39,7 +39,7 @@ H. Schwoerer, H. N. Chapman, __B. J. Siwick__, and R. J. D. Miller, Special issu
 
 _R. P. Chatelain_, _V. R. Morrison_, Bart L. M. Klarenaar and __B. J. Siwick__, Coherent and incoherent electron-phonon coupling in graphite observed with radio-frequency compressed ultrafast electron diffraction, Phys. Rev. Lett. 113 (2014) [235502](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.235502).
 
-_V. R. Morrison_, _R. P. Chatelain_, _K. L. Tiwari_, A. Hendaoui, _A. Bruhács_, M. Chaker and __B. J. Siwick__, A photoinduced metal-like phase of monoclinic vanadium dioxide revealed by ultrafast electron diffraction, Science 346 (2014) [pp. 445-448](http://www.sciencemag.org/content/346/6208/445.abstract).
+_V. R. Morrison_, _R. P. Chatelain_, _K. L. Tiwari_, A. Hendaoui, _A. Bruhács_, M. Chaker and __B. J. Siwick__, A photoinduced metal-like phase of monoclinic vanadium dioxide revealed by ultrafast electron diffraction, Science 346 (2014) [pp. 445-448](https://www.science.org/doi/full/10.1126/science.1253779).
 
 _M. J. Stern_, L. Nikolova, J. MacLeod, B. Reed, G. H. Campbell, H. Ibrahim, F. Rosei, T. LaGrange, __B. J. Siwick__, In situ investigation of explosive crystallization in a-Ge: Experimental determination of the interface response function using dynamic transmission electron microscopy, J. Appl. Phys. 116 (2014) [093512](http://scitation.aip.org/content/aip/journal/jap/116/9/10.1063/1.4894397).
 
@@ -49,7 +49,7 @@ __B. J. Siwick__ and E. Collet, Physical Chemistry: Molecular Motion Watched, Na
 
 L. Nikolova, T. LaGrange, _M. J. Stern_, J. M. MacLeod, B. W. Reed, H. Ibrahim, G. H. Campbell, F. Rosei and __B. J. Siwick__, Complex crystallization dynamics in amorphous germanium observed with dynamic transmission electron microscopy, Physical Review B 87 [(2013)](http://prb.aps.org/abstract/PRB/v87/i6/e064105)
 
-_V. R. Morrison_, _R. P. Chatelain_, _C. Godbout_ and __B. J. Siwick__, Direct optical measurements of the evolving spatio-temporal charge density in ultrashort electron pulses, Optics Express 21 [(2013)](http://www.opticsinfobase.org/oe/fulltext.cfm?uri=oe-21-1-21&id=247783)
+_V. R. Morrison_, _R. P. Chatelain_, _C. Godbout_ and __B. J. Siwick__, Direct optical measurements of the evolving spatio-temporal charge density in ultrashort electron pulses, Optics Express 21 [(2013)](https://opg.optica.org/oe/fulltext.cfm?uri=oe-21-1-21&id=247783)
 
 T. LaGrange, B. W. Reed, M. K. Santala, J. T. McKeown, A. Kulovits, J. M. K. Wiezorek, L. Nikolova, F. Rosei, __B. J. Siwick__ and G. H. Campbell, Approaches for ultrafast imaging of transient materials processes in the transmission electron microscope, Micron 43 [(2012)](http://www.sciencedirect.com/science/article/pii/S0968432812001333)
 
@@ -59,9 +59,9 @@ _R. P. Chatelain_, _V. R. Morrison_, _C. Godbout_ and __B. J. Siwick__, Ultrafas
 
 _R. P. Chatelain_, _V. R. Morrison_, _C. Godbout_, B. van der Geer, M. de Loos and __B. J. Siwick__, Space-charge effects in ultrafast electron diffraction patterns from single crystals, Ultramicroscopy 116 [(2012)](http://www.sciencedirect.com/science/article/pii/S030439911200037X)
 
-M. L. Taheri, S. McGowan, L. Nikolova, J. E. Evans, N. Teshlich, J. P. Lu, T. LaGrange, F. Rosei, __B. J. Siwick__ and N. D. Browning, In situ laser crystallization of amorphous silicon: Controlled nanosecond studies in the dynamic transmission microscope, Applied Physics Letters 97 [(2010)](http://apl.aip.org/resource/1/applab/v97/i3/p032102_s1)
+M. L. Taheri, S. McGowan, L. Nikolova, J. E. Evans, N. Teshlich, J. P. Lu, T. LaGrange, F. Rosei, __B. J. Siwick__ and N. D. Browning, In situ laser crystallization of amorphous silicon: Controlled nanosecond studies in the dynamic transmission microscope, Applied Physics Letters 97 [(2010)](https://aip.scitation.org/doi/10.1063/1.3422473)
 
-L. Nikolova, T. LaGrange, B. W. Reed, _M. J. Stern_, N. D. Browning, G. H. Campbell, J. C. Kieffer, __B. J. Siwick__ and F. Rosei, Nanocrystallization of amorphous germanium films observed with nanosecond temporal resolution, Applied Physics Letters 97 [(2010)](http://apl.aip.org/resource/1/applab/v97/i20/p203102_s1)
+L. Nikolova, T. LaGrange, B. W. Reed, _M. J. Stern_, N. D. Browning, G. H. Campbell, J. C. Kieffer, __B. J. Siwick__ and F. Rosei, Nanocrystallization of amorphous germanium films observed with nanosecond temporal resolution, Applied Physics Letters 97 [(2010)](https://aip.scitation.org/doi/10.1063/1.3518069)
 
 M. J. Cox, __B. J. Siwick__ and H. J. Bakker, Influence of Ions on Aqueous Acid-Base Reactions, Phys Chem. Chem. Phys. 10 (2009), [pp. 236-244](http://onlinelibrary.wiley.com/doi/10.1002/cphc.200800406/abstract)
 
@@ -73,19 +73,19 @@ __B. J. Siwick__ and H. J. Bakker, On the role of water in intermolecular proton
 
 W. E. King, G. H. Campbell, A. M. Frank, B. W. Reed, J. Schmerge, __B. J. Siwick__, B. C. Stuart and P. M. Weber, Ultrafast Electron Microscopy in Material Science, Biology and Chemistry, J. Appl. Phys. **97** (11) 2005, Art. No. 111101. [DOI:10.1063/1.1927699](https://doi.org/10.1063/1.1927699).
 
-__B. J. Siwick__, A. A. Green, C. T. Hebeisen and R. J. D. Miller, Characterization of Ultrashort Electron Pulses by Electron-Laser Pulse Cross-Correlation, Opt. Lett. 30 (9) 2005, [pp. 1057-1059](http://www.opticsinfobase.org/ol/abstract.cfm?uri=ol-30-9-1057).
+__B. J. Siwick__, A. A. Green, C. T. Hebeisen and R. J. D. Miller, Characterization of Ultrashort Electron Pulses by Electron-Laser Pulse Cross-Correlation, Opt. Lett. 30 (9) 2005, [pp. 1057-1059](https://opg.optica.org/ol/fulltext.cfm?uri=ol-30-9-1057&id=83549).
 
 __B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, Femtosecond Electron Diffraction Studies of Strongly Driven Structural Phase Transitions, Chem. Phys. 299 (2-3) 2004, [pp. 285-305](http://www.sciencedirect.com/science/article/pii/S0301010403006621). Special Issue on Ultrafast Science with X-rays and Electrons
 
 __B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, An Atomic-Level View of Melting Using Femtosecond Electron Diffraction, Science **302** (5649) 2003, [DOI:10.1126/science.1090052](https://doi.org/10.1126/science.1090052). This article was the cover story of the Nov. 21, 2003 issue
 
-__B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, Response to Comment on: Ultrafast Electron Optics: Propagation Dynamics of Femtosecond Electron Packets [J. Appl. Phys. 92, 1643 (2002)], J. Appl. Phys. 94 (1) 2003, [pp. 807-808](http://jap.aip.org/resource/1/japiau/v94/i1/p807_s1)
+__B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, Response to Comment on: Ultrafast Electron Optics: Propagation Dynamics of Femtosecond Electron Packets [J. Appl. Phys. 92, 1643 (2002)], J. Appl. Phys. 94 (1) 2003, [pp. 807-808](https://aip.scitation.org/doi/abs/10.1063/1.1567817)
 
-__B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, Ultrafast Electron Optics: Propagation Dynamics of Femtosecond Electron Packets, J. Appl. Phys. 92 (3) 2002, [pp. 1643-1648](http://jap.aip.org/resource/1/japiau/v92/i3/p1643_s1)
+__B. J. Siwick__, J. R. Dwyer, R. E. Jordan and R. J. D. Miller, Ultrafast Electron Optics: Propagation Dynamics of Femtosecond Electron Packets, J. Appl. Phys. 92 (3) 2002, [pp. 1643-1648](https://aip.scitation.org/doi/10.1063/1.1487437)
 
 D. Kraemer, __B. J. Siwick__ and R. J. D. Miller, Ultra-High Density Optical Data Storage: Information Retrieval an Order of Magnitude Beyond the Rayleigh Limit, Chem. Phys., 285 (1) 2002, [pp. 73-83](http://www.sciencedirect.com/science/article/pii/S0301010402006900) Special Issue on Unconventional Photoactive Materials
 
-__B. J. Siwick__, O. Kalinina, E. Kumacheva, R. J. D. Miller and J. Noolandi, Polymeric Nanostructured Materials for High-Density Three-Dimensional Optical Memory, J. Appl. Phys. 90 (10) 2001, [pp. 5328-5334](http://jap.aip.org/resource/1/japiau/v90/i10/p5328_s1)
+__B. J. Siwick__, O. Kalinina, E. Kumacheva, R. J. D. Miller and J. Noolandi, Polymeric Nanostructured Materials for High-Density Three-Dimensional Optical Memory, J. Appl. Phys. 90 (10) 2001, [pp. 5328-5334](https://aip.scitation.org/doi/10.1063/1.1406547)
 
 -------------------------------------------------------------------------------
 
