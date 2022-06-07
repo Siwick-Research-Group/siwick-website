@@ -7,12 +7,12 @@ withtoc: yes
 
 ![The experimental setup diagram is shown, updated as of the middle of 2019.](/images/hardware/experimental_setup_2019.svg)
 
-Everything starts with a 75 MHz oscillator, emitting 800 nm 35fs pulses. The oscillator beam is split in two branches. One of them runs along the top of the diagram. This branch is captured by a photodiode. The resulting electronic signal is then expertly manipulated so as to generate a 3 GHz, ~50W pulse, as described [here](/hardware.html#laser-microwave-synchronization-and-active-cavity-phase-stabilization).
-The other branch is amplified using chirped pulse amplification to a resulting 35 fs, 1 kHz, 3 mj pulse train.
+Everything starts with a 75 MHz oscillator, emitting 800 nm 35 fs pulses. The oscillator beam is split in two branches. One of them runs along the top of the diagram. This branch is captured by a photodiode. The resulting electronic signal is then expertly manipulated so as to generate a 3 GHz, ~50 W pulse, as described [here](/hardware.html#laser-microwave-synchronization-and-active-cavity-phase-stabilization).
+The other branch is amplified using chirped pulse amplification to a resulting 35 fs, 1 kHz, 3 mJ pulse train.
 
 The amplified laser pulse train is again split into two branches. The vertical branch is used to photo-excite samples. These _pump_ pulses can be delayed by moving mirrors on a delay-stage. The horizontal branch is converted to UV (266 nm) light, perfect to extract electron from a bulk copper photocathode.
 
-The electrons are accelerated to about 100keV in a DC electron accelerator. The expanding electron pulse train is compressed by a radio-frequency compression cavity, described [here](/hardware.html#radio-frequency-electron-pulse-compression), so that the electron pulse is shortest at the sample. The resulting scattering pattern is then collected on an electron microscope CCD.
+The electrons are accelerated to about 100 keV in a DC electron accelerator. The expanding electron pulse train is compressed by a radio-frequency compression cavity, described [here](/hardware.html#radio-frequency-electron-pulse-compression), so that the electron pulse is shortest at the sample. The resulting scattering pattern is then collected on an electron microscope CCD.
 
 ## Radio-frequency electron pulse compression
 
@@ -34,7 +34,7 @@ RF compression has allowed us to access new regimes of electron beam brightness 
 </div>
 </div>
 
-1. T. van Oudheusden, E. F. de Jong, S. B. van der Geer, W.P. E. M. Op 't Root, O. J. Luiten and __B.J. Siwick__, _Electron Source Concept for Single-shot Sub-100 fs Electron Diffraction in the 100 keV Range_, J. Appl. Phys. 102 (2007) 093501.
+1. T. van Oudheusden, E. F. de Jong, S. B. van der Geer, W.P. E. M. Op 't Root, O. J. Luiten and __B. J. Siwick__, _Electron Source Concept for Single-shot Sub-100 fs Electron Diffraction in the 100 keV Range_, J. Appl. Phys. 102 (2007) 093501.
 2. _R. P. Chatelain_, _V. Morrison_, _C. Godbout_, and __B. J. Siwick__, _Ultrafast Electron Diffraction with Radio-frequency Compressed Electron_ Pulses, Appl. Phys. Lett. 101 (2012) 081901.
 3. __B. J. Siwick__, J. R. Dwyer, R. E. Jordan, R. J. D. Miller, _Ultrafast Electron Optics: Propagation Dynamics of Femtosecond Electron Packets_, J. Appl. Phys. 92 (2002), pp. 1643-1648.
 4. _V. Morrison_, _R. P. Chatelain_, _C. Godbout_, __B. J. Siwick__, _Direct Optical Measurements of the Evolving Spatio-temporal Charge Density in Ultrashort Electron Pulses_, Opt. Express 21 (2013) 29 - 37.
@@ -50,22 +50,22 @@ We achieve laser-microwave synchronization by a simplified approach in which mic
 <div class="columns">
 
 <div class="column is-half">
-![a) Measured phase drift in the compression cavity arising from frequency detuning between microwave drive and cavity resonance. Measurements with active phase stabilization on (off) are shown in blue (red). The inset shows the respective statistics of the phase fluctuations. b) The Fourier transforms of the traces shown in a) representing the additive RMS timing noise spectral density of the cavity phase fluctuations.](/images/hardware/feedback_performance.png)
+![__a__ Measured phase drift in the compression cavity arising from frequency detuning between microwave drive and cavity resonance. Measurements with active phase stabilization on (off) are shown in blue (red). The inset shows the respective statistics of the phase fluctuations. __b__ The Fourier transforms of the traces shown in a representing the additive RMS timing noise spectral density of the cavity phase fluctuations.](/images/hardware/feedback_performance.png)
 </div>
 
 <div class="column is-half">
 
-Phase noise in the electron pulse compression signal directly correlates with electron pulse arrival drift, which reduces effective time-resolution. The new, direct laser-microwave synchronization increased our timing stability from 200fs down to 10 fs, at which point it is far from the limiting factor in our everlating quest for shorter electron pulses.
+Phase noise in the electron pulse compression signal directly correlates with electron pulse arrival drift, which reduces effective time-resolution. The new, direct laser-microwave synchronization increased our timing stability from 200 fs down to 10 fs, at which point it is far from the limiting factor in our everlating quest for shorter electron pulses.
 
-The relation between frequency detuning $f_0 - f_d$ and timing drift $\Delta t_0$ involves the cavity's $Q$-factor:
+The relation between frequency detuning $f_0 - f_\mathrm{d}$ and timing drift $\Delta t_0$ involves the cavity's $Q$-factor:
 
 $$
-    \Delta t_0 = - \frac{1}{\pi f_d} \left( Q \frac{f_0 - f_d}{f_0} \right)
+    \Delta t_0 = - \frac{1}{\pi f_\mathrm{d}} \left( Q \frac{f_0 - f_\mathrm{d}}{f_0} \right)
 $$
 
 Given our ability to directly measure the phase of the electron pulse compression signal (thanks to a microwave pickup antenna in the compression cavity), we are also able to feedback on the long-time phase drifts, which has been reduced to less than 50 fs -- our resolution limit.
 
-All-in-all, our time-resolution has jumped from ~350 fs to ~150 fs (averaged over 12h!), all while simplifying the synchronization scheme and maintaining bright beam intensity. Subrelativistic, table-top ultrafast electron diffraction instruments can now operate in a regime limited by pulse duration--not synchronization jitter.
+All-in-all, our time-resolution has jumped from ~350 fs to ~150 fs (averaged over 12 h!), all while simplifying the synchronization scheme and maintaining bright beam intensity. Subrelativistic, table-top ultrafast electron diffraction instruments can now operate in a regime limited by pulse duration--not synchronization jitter.
 
 </div>
 </div>
@@ -82,7 +82,7 @@ Daily operation of the ultrafast electron diffractometer requires the ability to
 
 Compared to the alternatives, using a streak camera for day-to-day operations allows to quick experimental set-up and diagnostics.
 
-![A) Illustration of the operating principle of an optically-triggered streak camera. The electron pulse propagates through a region in which a time varying electric field imparts transverse momentum onto the pulse, causing it to be deflected and rotated. B) Design of a 10 GHz streak camera (above) consisting of a capacitor structure and GaAs photo-switch patterned onto a microwave circuit board, and the electric field maps (below) of the capacitor cross section of a resonant mode. C) Calibration data for the streak camera illustrating the beam deflection distance as a function of time after the GaAs switch is triggered by a 35 fs, 800 nm laser pulse.](/images/hardware/streak.svg)
+![__a__ Illustration of the operating principle of an optically-triggered streak camera. The electron pulse propagates through a region in which a time varying electric field imparts transverse momentum onto the pulse, causing it to be deflected and rotated. __b__ Design of a 10 GHz streak camera (above) consisting of a capacitor structure and GaAs photo-switch patterned onto a microwave circuit board, and the electric field maps (below) of the capacitor cross section of a resonant mode. __c__ Calibration data for the streak camera illustrating the beam deflection distance as a function of time after the GaAs switch is triggered by a 35 fs, 800 nm laser pulse.](/images/hardware/streak.svg)
 
 1. G. H. Kassier, K. Haupt, N. Erasmus, E. G. Rohwer, H. M. von Bergmann, H. Schwoerer, S. M. M. Coelho, and F. D. Auret, _A compact streak camera for 150 fs time resolved measurement of bright pulses in ultrafast electron diffraction_, Rev. Sci. Instrum. 81 (2010) DOI: 10.1063/1.3489118
 2. _M. R. Otto_, _L. P. René de Cotret_, _M. J. Stern_, and __B. J. Siwick__, _Solving the Jitter Problem in Microwave Compressed Ultrafast Electron Diffraction Instruments: Robust Sub-50 fs Cavity-Laser Phase Stabilization_, Struct. Dyn. 5 (2017)
