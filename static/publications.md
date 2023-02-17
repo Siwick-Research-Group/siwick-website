@@ -8,6 +8,8 @@ withtoc: yes
 __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"></i>.__
 
 <!-- Underlined names are group members at the time of submission. -->
+D. Filippetto, P. Musumeci, R. K. Li, _B. J. Siwick_, M. R. Otto, M. Centurion and J. P. F. Nunes, Ultrafast electron diffraction: Visualizing dynamic states of matter, Rev. Mod. Phys. **94** (2022) [DOI: 10.1103/RevModPhys.94.045004](https://doi.org/10.1103/RevModPhys.94.045004). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2207.00080)
+
 _T. L. Britt_, Q. Li, L. P. René de Cotret, N. Olsen, M. Otto, _S. A. Hassan_, M. Zacharias, F. Caruso, X. Zhu and __B. J. Siwick__, Direct view of phonon dynamics in atomically thin MoS2, Nano Lett. **22** (2022) [DOI: 10.1021/acs.nanolett.2c00850](https://pubs.acs.org/doi/10.1021/acs.nanolett.2c00850). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2205.07672)
 
 _L. P. René de Cotret_, M. R. Otto, J.-H. Pöhls, Z. Luo, M. G. Kanatzidis, and __B. J. Siwick__, Direct visualization of polaron formation in the thermoelectric SnSe, PNAS **119** (2022) [DOI: 10.1073/pnas.2113967119](https://www.pnas.org/content/119/3/e2113967119). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2111.10012). Featured on [__McGill University News__](https://www.mcgill.ca/channels/channels/news/visualizing-how-polarons-form-best-thermoelectric-material-yet-developed-336618)
