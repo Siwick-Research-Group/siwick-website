@@ -132,10 +132,10 @@ __Vance Morrison__ (M.Sc., Physics 2008), Generation of tunable femtosecond lase
 
 ## Public datasets
 
-The Siwick research group has made a few dataset publically available via the file-transfer protocol (FTP). Click [here](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software) for a list of FTP clients. Your browser might also support FTP.
+The Siwick research group has made a few dataset publically available here:
 
 <div class="has-text-centered">
-<a class="button is-medium is-primary is-outlined" href="ftp://132.206.175.129" target="_blank" rel="noopener">Click here to access the public data repository</a>
+<a class="button is-medium is-primary is-outlined" href="https://www.physics.mcgill.ca/~laurenzk/public_datasets/" target="_blank" rel="noopener">Click here to access the public data repository</a>
 </div>
 <br>
-If you have any trouble accessing this data, do not hesitate to [contact us](mailto:laurent.renedecotret@mail.mcgill.ca).
+If you have any trouble accessing this data, do not hesitate to [contact us](mailto:laurenz.kremeyer@mail.mcgill.ca).
