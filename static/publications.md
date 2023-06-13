@@ -8,6 +8,8 @@ withtoc: yes
 __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"></i>.__
 
 <!-- Underlined names are group members at the time of submission. -->
+__T. L. Britt__ and __B. J. Siwick__, Ultrafast phonon diffuse scattering as a tool for observing chiral phonons in monolayer hexagonal lattices, Phys. Rev. B **107** (2023) [DOI: 10.1103/PhysRevB.107.214306](https://doi.org/10.1103/PhysRevB.107.214306). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2303.05562)
+
 D. Filippetto, P. Musumeci, R. K. Li, __B. J. Siwick__, M. R. Otto, M. Centurion and J. P. F. Nunes, Ultrafast electron diffraction: Visualizing dynamic states of matter, Rev. Mod. Phys. **94** (2022) [DOI: 10.1103/RevModPhys.94.045004](https://doi.org/10.1103/RevModPhys.94.045004). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2207.00080)
 
 _T. L. Britt_, Q. Li, L. P. René de Cotret, N. Olsen, M. Otto, _S. A. Hassan_, M. Zacharias, F. Caruso, X. Zhu and __B. J. Siwick__, Direct view of phonon dynamics in atomically thin MoS2, Nano Lett. **22** (2022) [DOI: 10.1021/acs.nanolett.2c00850](https://pubs.acs.org/doi/10.1021/acs.nanolett.2c00850). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2205.07672)
