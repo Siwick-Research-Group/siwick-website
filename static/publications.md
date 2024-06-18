@@ -8,7 +8,9 @@ withtoc: yes
 __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"></i>.__
 
 <!-- Underlined names are group members at the time of submission. -->
-<i class="fas fa-unlock-alt"></i> _L. Kremeyer_, _T. L. Britt_, __B. J. Siwick__ and S. C. Huberman, Ultrafast electron diffuse scattering as a tool for studying phonon transport: Phonon hydrodynamics and second sound oscillations, Struct. Dyn. **11**, (2024) [DOI: 10.1063/4.0000224](https://doi.org/10.1063/4.0000224)
+<i class="fas fa-unlock-alt"></i> _S. Hammer_, _T. L. Britt_, _L. Kremeyer_, M. Rödel, _D. Cai_, J. Pflaum, __B. J. Siwick__, Excimer Formation in Zinc-phthalocyanine Revealed using Ultrafast Electron Diffraction, arXiv:2404.18292 (2024) [DOI: 10.48550/arXiv.2404.18292](https://doi.org/10.48550/arXiv.2404.18292)
+
+<i class="fas fa-unlock-alt"></i> _L. Kremeyer_, _T. L. Britt_, __B. J. Siwick__ and S. C. Huberman, Ultrafast electron diffuse scattering as a tool for studying phonon transport: Phonon hydrodynamics and second sound oscillations, Struct. Dyn. **11** (2024) [DOI: 10.1063/4.0000224](https://doi.org/10.1063/4.0000224)
 
 _T. L. Britt_ and __B. J. Siwick__, Ultrafast phonon diffuse scattering as a tool for observing chiral phonons in monolayer hexagonal lattices, Phys. Rev. B **107** (2023) [DOI: 10.1103/PhysRevB.107.214306](https://doi.org/10.1103/PhysRevB.107.214306). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2303.05562)
 
