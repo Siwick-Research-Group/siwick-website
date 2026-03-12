@@ -8,6 +8,8 @@ withtoc: yes
 __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"></i>.__
 
 <!-- Underlined names are group members at the time of submission. -->
+<i class="fas fa-unlock-alt"></i> _L. Kremeyer_, _D. Cai_, _M. Lahlou_, _S. Hammer_, R. Schwenzer, __B. J. Siwick__, Prospects for Direct Electron Detectors in Ultrafast Electron Scattering Experiments, under review in Structural Dynamics (2026) [DOI: 10.48550/arXiv.2602.17396](https://doi.org/10.48550/arXiv.2602.17396).
+
 <i class="fas fa-unlock-alt"></i> _L. Kremeyer_, __B. J. Siwick__, S. Huberman, Transition from Population to Coherence-dominated Non-diffusive Thermal Transport, under review in PRB (2025) [DOI: 10.48550/arXiv.2512.13616](https://doi.org/10.48550/arXiv.2512.13616).
 
 <i class="fas fa-unlock-alt"></i> _S. Hammer_, _T. L. Britt_, _L. Kremeyer_, M. Rödel, _D. Cai_, J. Pflaum, __B. J. Siwick__, Excimer Formation in Zinc-phthalocyanine Revealed using Ultrafast Electron Diffraction, PNAS **121** (2024) [DOI: 10.1073/pnas.2411975121](https://doi.org/10.1073/pnas.2411975121).
