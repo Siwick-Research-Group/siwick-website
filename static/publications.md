@@ -10,13 +10,13 @@ __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"><
 <!-- Underlined names are group members at the time of submission. -->
 <i class="fas fa-unlock-alt"></i> _L. Kremeyer_, _D. Cai_, _M. Lahlou_, _S. Hammer_, R. Schwenzer, __B. J. Siwick__, Prospects for Direct Electron Detectors in Ultrafast Electron Scattering Experiments, under review in Structural Dynamics (2026) [DOI: 10.48550/arXiv.2602.17396](https://doi.org/10.48550/arXiv.2602.17396).
 
-<i class="fas fa-unlock-alt"></i> _L. Kremeyer_, __B. J. Siwick__, S. Huberman, Transition from Population to Coherence-dominated Non-diffusive Thermal Transport, under review in PRB (2025) [DOI: 10.48550/arXiv.2512.13616](https://doi.org/10.48550/arXiv.2512.13616).
+_L. Kremeyer_, __B. J. Siwick__, S. Huberman, Transition from population- to coherence-dominated nondiffusive thermal transport, Phys. Rev. B **113** (2026) [DOI: 10.1103/rcws-tjy7](https://doi.org/10.1103/rcws-tjy7). <i class="fas fa-unlock-alt"></i> [Available on arXiv](https://doi.org/10.48550/arXiv.2512.13616)
 
 <i class="fas fa-unlock-alt"></i> _S. Hammer_, _T. L. Britt_, _L. Kremeyer_, M. Rödel, _D. Cai_, J. Pflaum, __B. J. Siwick__, Excimer Formation in Zinc-phthalocyanine Revealed using Ultrafast Electron Diffraction, PNAS **121** (2024) [DOI: 10.1073/pnas.2411975121](https://doi.org/10.1073/pnas.2411975121).
 
 <i class="fas fa-unlock-alt"></i> _T. L. Britt_, F. Caruso and __B. J. Siwick__, A momentum-resolved view of polaron formation in materials, npj Comp. Mat. **10** (2024) [DOI: 10.1038/s41524-024-01347-x](https://doi.org/10.1038/s41524-024-01347-x).
 
-<i class="fas fa-unlock-alt"></i> _L. Kremeyer_, _T. L. Britt_, __B. J. Siwick__ and S. C. Huberman, Ultrafast electron diffuse scattering as a tool for studying phonon transport: Phonon hydrodynamics and second sound oscillations, Struct. Dyn. **11** (2024) [DOI: 10.1063/4.0000224](https://doi.org/10.1063/4.0000224).
+<i class="fas fa-unlock-alt"></i> _L. Kremeyer_, _T. L. Britt_, __B. J. Siwick__ and S. Huberman, Ultrafast electron diffuse scattering as a tool for studying phonon transport: Phonon hydrodynamics and second sound oscillations, Struct. Dyn. **11** (2024) [DOI: 10.1063/4.0000224](https://doi.org/10.1063/4.0000224).
 
 _T. L. Britt_ and __B. J. Siwick__, Ultrafast phonon diffuse scattering as a tool for observing chiral phonons in monolayer hexagonal lattices, Phys. Rev. B **107** (2023) [DOI: 10.1103/PhysRevB.107.214306](https://doi.org/10.1103/PhysRevB.107.214306). <i class="fas fa-unlock-alt"></i> [Older preprint version available on arXiv](https://arxiv.org/abs/2303.05562)
 
