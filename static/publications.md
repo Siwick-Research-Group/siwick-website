@@ -8,7 +8,7 @@ withtoc: yes
 __Open-access publications are highlighted with a <i class="fas fa-unlock-alt"></i>.__
 
 <!-- Underlined names are group members at the time of submission. -->
-<i class="fas fa-unlock-alt"></i> _L. Kremeyer_, _D. Cai_, _M. Lahlou_, _S. Hammer_, R. Schwenzer, __B. J. Siwick__, Prospects for Direct Electron Detectors in Ultrafast Electron Scattering Experiments, under review in Structural Dynamics (2026) [DOI: 10.48550/arXiv.2602.17396](https://doi.org/10.48550/arXiv.2602.17396).
+_L. Kremeyer_, _D. Cai_, _M. Lahlou_, _S. Hammer_, R. Schwenzer, __B. J. Siwick__, Prospects for Direct Electron Detectors in Ultrafast Electron Scattering Experiments, Structural Dynamics **13** (2026) [DOI: 10.1063/4.0001206](https://doi.org/10.1063/4.0001206). <i class="fas fa-unlock-alt"></i> [Available on arXiv](https://doi.org/10.48550/arXiv.2602.17396)
 
 _L. Kremeyer_, __B. J. Siwick__, S. Huberman, Transition from population- to coherence-dominated nondiffusive thermal transport, Phys. Rev. B **113** (2026) [DOI: 10.1103/rcws-tjy7](https://doi.org/10.1103/rcws-tjy7). <i class="fas fa-unlock-alt"></i> [Available on arXiv](https://doi.org/10.48550/arXiv.2512.13616)
 
