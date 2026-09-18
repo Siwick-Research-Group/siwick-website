@@ -3,6 +3,28 @@ title: Research
 withtoc: yes
 ---
 
+## Phonon coherences and the transition from population- to coherence-dominated thermal transport
+
+In low thermal conductivity materials, those with large unit cells or strong anharmonicity, phonon linewidths approach the spacing between branches and heat begins to flow by wavelike tunneling between overlapping bands. Populations alone no longer describe the phonon system; the off-diagonal coherences of its density matrix matter. Here we extend the Wigner transport equation to include an arbitrary space- and time-dependent heat source, connecting the theory to what time-resolved experiments measure, and solve it in spatial and temporal Fourier space to obtain a Green's function from which the response to any drive follows directly.
+
+To separate the two channels we define a transport character $\chi = (\kappa_\mathrm{P} - \kappa_\mathrm{C})/(\kappa_\mathrm{P} + \kappa_\mathrm{C})$, which is $+1$ for purely population-driven transport, $-1$ for purely coherence-driven transport, and $0$ where the two contribute equally.
+In CsPbBr~3~ and La~2~Zr~2~O~7~, coherences dominate the thermal conductivity above 240 K and 800 K respectively (**a**), and they survive to far smaller length scales than populations do: in La~2~Zr~2~O~7~ the population contribution collapses below grating periods of ~10 μm while coherences persist to ~50 nm, so that $\chi$ crosses zero at micron-scale periods and moderately elevated temperatures (**b**) and again as the drive frequency approaches the phonon relaxation rates (**c**).
+Both regimes are within reach of extreme-ultraviolet transient grating experiments.
+The mode-resolved change in transport mechanism is shown in **d** and **e**.
+
+![Population- and coherence-dominated transport.
+**a** Thermal conductivity of silicon, CsPbBr~3~ and La~2~Zr~2~O~7~, with the population and coherence contributions resolved separately.
+**b** Transport character χ of La~2~Zr~2~O~7~ as a function of grating period and temperature in the static case; the thick contour marks χ = 0, where populations and coherences contribute equally.
+**c** The same quantity at 500 K as a function of grating period and drive frequency.
+**d**, **e** Mode-resolved transport character of CsPbBr~3~ along the SLX path at 100 K, zoomed into the low-energy part of the spectrum, in the static case (d) and at high drive frequency (e). Line thickness is proportional to the square root of each mode's contribution to κ, so the suppression of the population-dominated acoustic modes is visible directly, while the character of the individual modes barely changes.](/images/research/wte.png)
+
+<!-- Easier to style the following link using raw HTML -->
+<h5 class="subtitle is-5 has-text-centered"> <a href="https://greenwte.readthedocs.io/"> greenWTE: open-source solver, documentation and tutorials <i class="fas fa-external-link-square-alt"></i> </a> </h5>
+
+The method is implemented in **greenWTE**, an open-source GPU-capable Python package available on [PyPI](https://pypi.org/project/greenWTE/) and [GitHub](https://github.com/kremeyer/greenWTE).
+
+1. _L. Kremeyer_, __B. J. Siwick__ and S. C. Huberman, _Transition from population- to coherence-dominated nondiffusive thermal transport_, Phys. Rev. B __113__ (2026) 184304 [DOI: 10.1103/rcws-tjy7](https://doi.org/10.1103/rcws-tjy7).
+
 ## Direct View of Phonon Dynamics in Atomically Thin MoS~2~
 
 Transition-metal dichalcogenide monolayers and heterostructures are highly tunable material systems that provide excellent models for physical phenomena at the two-dimensional limit. While most studies to date have focused on electrons and electron–hole pairs, phonons also play essential roles. Here, we apply ultrafast electron diffraction and diffuse scattering to directly quantify, with time and momentum resolution, electron–phonon coupling in monolayer molybdenum disulfide and phonon transport from the monolayer to a silicon nitride substrate. Optically generated hot carriers result in a profoundly anisotropic distribution of phonons in the monolayer within ∼5 ps. A quantitative comparison with ab initio ultrafast dynamics simulations reveals the essential role of dielectric screening in weakening electron–phonon coupling. Thermal transport from the monolayer to the substrate occurs with the phonon system far from equilibrium. While screening in two dimensions is known to strongly affect equilibrium properties, our findings extend this understanding to the dynamic regime.
