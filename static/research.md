@@ -3,6 +3,28 @@ title: Research
 withtoc: yes
 ---
 
+## Direct electron detection in UED(S)
+
+Hybrid pixel counting detectors (HPCDs) register single electrons with near-zero readout noise and read out one frame per pulse, which makes them attractive for the weak phonon-diffuse signals central to UEDS.
+But an ultrafast electron bunch is instantaneous from the perspective of the detector electronics, so every electron in a shot arrives at once.
+Characterizing a Dectris Quadro under these conditions, we find that pixels behave as binary detectors and saturate at surprisingly low electron doses.
+
+The fix is to stop summing counts and start counting the likelyhood of not detectin any electron.
+Since the electron detection events are Poisson distributed, the information of how often no counts are measures is enough to recover the true electron dose.
+Using this statistical apporach improves the usable dynamic range by more than an order of magnitude (**a**, **c**).
+We are further deriving a model of the measurement uncertainty, which is in good agreement with the measured data (**b**).
+The detection of high-dose features like Bragg peaks remains a challenge with HPCDs, but the zero-count method is a powerful tool for the low-dose diffuse scattering that is central to UEDS.
+
+![Testing the zero-count method in a UED(S) experiment on polycrystalline VO~2~.
+**a** Per-pixel count rate from simple summation (black) and zero-count estimation (red); the two diverge once pixels begin to saturate and counts are lost.
+**b** Relative uncertainty per pixel, with the measured spread, the analytic prediction and the shot-noise limit; the vertical line marks the optimum dose.
+**c** A single diffraction pattern processed by simple summation (left half) and by zero-count estimation (right half), showing greatly enhanced contrast.](/images/research/direct_electron_detection.png)
+
+1. _L. Kremeyer_, _D. Cai_, _M. Lahlou_, _S. Hammer_, R. Schwenzer and
+__B. J. Siwick__, _Prospects for direct electron detectors in ultrafast electron
+diffraction and scattering experiments_, Struct. Dyn. __13__ (2026) 044302
+[DOI: 10.1063/4.0001206](https://doi.org/10.1063/4.0001206).
+
 ## Phonon coherences and the transition from population- to coherence-dominated thermal transport
 
 In low thermal conductivity materials, those with large unit cells or strong anharmonicity, phonon linewidths approach the spacing between branches and heat begins to flow by wavelike tunneling between overlapping bands. Populations alone no longer describe the phonon system; the off-diagonal coherences of its density matrix matter. Here we extend the Wigner transport equation to include an arbitrary space- and time-dependent heat source, connecting the theory to what time-resolved experiments measure, and solve it in spatial and temporal Fourier space to obtain a Green's function from which the response to any drive follows directly.
@@ -14,9 +36,9 @@ The mode-resolved change in transport mechanism is shown in **d** and **e**.
 
 ![Population- and coherence-dominated transport.
 **a** Thermal conductivity of silicon, CsPbBr~3~ and La~2~Zr~2~O~7~, with the population and coherence contributions resolved separately.
-**b** Transport character χ of La~2~Zr~2~O~7~ as a function of grating period and temperature in the static case; the thick contour marks χ = 0, where populations and coherences contribute equally.
+**b** Transport character χ of La~2~Zr~2~O~7~ as a function of grating period and temperature in the static case; the thick contour marks $\chi = 0$, where populations and coherences contribute equally.
 **c** The same quantity at 500 K as a function of grating period and drive frequency.
-**d**, **e** Mode-resolved transport character of CsPbBr~3~ along the SLX path at 100 K, zoomed into the low-energy part of the spectrum, in the static case (d) and at high drive frequency (e). Line thickness is proportional to the square root of each mode's contribution to κ, so the suppression of the population-dominated acoustic modes is visible directly, while the character of the individual modes barely changes.](/images/research/wte.png)
+**d**, **e** Mode-resolved transport character of CsPbBr~3~ along the SLX path at 100 K, zoomed into the low-energy part of the spectrum, in the static case (d) and at high drive frequency (e). Line thickness is proportional to the square root of each mode's contribution to $\kappa$, so the suppression of the population-dominated acoustic modes is visible directly, while the character of the individual modes barely changes.](/images/research/wte.png)
 
 <!-- Easier to style the following link using raw HTML -->
 <h5 class="subtitle is-5 has-text-centered"> <a href="https://greenwte.readthedocs.io/"> greenWTE: open-source solver, documentation and tutorials <i class="fas fa-external-link-square-alt"></i> </a> </h5>
